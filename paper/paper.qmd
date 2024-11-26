@@ -1,8 +1,8 @@
 ---
 title: "Analysis of the King Street Traffic Pilot Project on Improving the Reliability, Speed, and Capacity of Transportation"
 author: 
-  - liu zilin
-thanks: "Code and data are available at: [https://github.com/RohanAlexander/starter_folder](https://github.com/RohanAlexander/starter_folder)."
+  - Liu Zilin
+thanks: "Code and data are available at: [https://github.com/zilin1017/King-Street-Traffic-Pilot-Project](https://github.com/zilin1017/King-Street-Traffic-Pilot-Project)."
 date: "November 26, 2024"
 date-format: long
 abstract: "The paper provides a detailed analysis of the King Street transport pilot project, which aims to assess the impact of prioritizing trams over private cars on transport reliability, speed and capacity. Through the modeling and improvement of traffic data, the study gradually optimized the model variables and found that the model after logarithmic transformation performed best, with R-Square = 0.6345, which significantly improved the explanatory power of traffic flow changes. The pilot policy has achieved significant results in reducing traffic pressure at specific intersections and reducing interference from private cars. The effect of the policy is particularly significant on road sections with heavy traffic and during peak hours. In addition, the impact of different time periods and intersection characteristics on traffic patterns shows complex dynamic characteristics, which further indicates that targeted adjustment of traffic signals and optimization of priority policy implementation strategies will help further improve policy effects."
@@ -543,3 +543,4 @@ To improve the model from a more specific and small level, we can focus on the f
 
 From the perspective of model improvement, we can consider introducing nonlinear models or interaction terms to capture the complex relationship between time periods, intersection characteristics and traffic modes, such as using generalized linear models (GLM), decision trees or random forests to better characterize the nonlinearity and high-order interactions between variables.
 
+# References
