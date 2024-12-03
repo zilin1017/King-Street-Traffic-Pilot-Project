@@ -1,0 +1,564 @@
+---
+title: "Analysis of the King Street Traffic Pilot Project on Improving the Reliability, Speed, and Capacity of Transportation"
+author: 
+  - Liu Zilin
+thanks: "Code and data are available at: [https://github.com/zilin1017/King-Street-Traffic-Pilot-Project](https://github.com/zilin1017/King-Street-Traffic-Pilot-Project)."
+date: "December 1, 2024"
+date-format: long
+abstract: "The paper provides a detailed analysis of the King Street transport pilot project, which aims to assess the impact of prioritizing trams over private cars on transport reliability, speed and capacity. Through the modeling and improvement of traffic data, the study gradually optimized the model variables and found that the model after logarithmic transformation performed best, with R-Square = 0.6345, which significantly improved the explanatory power of traffic flow changes. The pilot policy has achieved significant results in reducing traffic pressure at specific intersections and reducing interference from private cars. The effect of the policy is particularly significant on road sections with heavy traffic and during peak hours. In addition, the impact of different time periods and intersection characteristics on traffic patterns shows complex dynamic characteristics, which further indicates that targeted adjustment of traffic signals and optimization of priority policy implementation strategies will help further improve policy effects."
+format: pdf
+number-sections: true
+bibliography: references.bib
+citeproc: true
+---
+# Introduction
+
+The King Street Transit Pilot[@king_street_pilot_2019] is a focused project designed to assess the impact of prioritizing trams over private vehicles on key transportation metrics, including reliability, speed, and capacity. Launched on November 12, 2017, between Bathurst Street and Jarvis Street, the project represents a critical effort to address Toronto’s urban mobility challenges in its busiest transit corridor. To evaluate the pilot’s effectiveness, baseline traffic and pedestrian data were collected in October and early November 2017. The study employs advanced statistical modeling to analyze traffic flow changes, with a specific focus on identifying the impact of the transit-first policy at critical intersections and during peak hours. Through iterative modeling improvements, the study identified that a log-transformed model with provided the strongest explanatory power, highlighting the policy’s effectiveness in reducing congestion and enhancing transit efficiency.
+
+The results demonstrate that prioritizing trams significantly reduces private vehicle interference, particularly at high-traffic intersections, and improves overall traffic flow during peak periods. However, the policy’s impact varies across different time periods and road sections, revealing complex dynamic characteristics that necessitate targeted adjustments. For example, intersections like Bathurst and Jarvis benefited notably, yet other areas showed less pronounced effects, emphasizing the need for localized signal adjustments and strategy refinements. These findings underline the importance of continuous monitoring and adaptive policy-making to maximize the pilot’s benefits. By showcasing how targeted priority measures can enhance urban transit, the study provides actionable insights for refining the King Street project and offers a framework for similar initiatives in other cities.
+
+The overall structure of the paper is arranged as follows. @sec-data introduces the data required for the study, including the data source, the main content of the data, descriptions of all variables, and a detailed introduction and visual analysis of the important variables required in the modeling stage. @sec-model builds a model based on the selected variables, and improves the model in turn through model diagnosis to obtain the final applicable model. The logarithm of the variable is used as the dependent variable of the regression model, and the remaining variables are used as binary variables or multi-classification variables for modeling. @sec-results explains the specific results of the final model and the comparison of the results of the three improved models. @sec-discussion the final model is diagnosed to illustrate the effectiveness of the model. In the fifth part, the article discusses and analyzes the above results, and introduces the shortcomings of the article in modeling and discussion as well as the direction for future improvement.
+
+
+# Data {#sec-data}
+
+## Survey Data
+
+This survey data is titled About King St. Transit Pilot - Traffic & Pedestrian Volumes Summary and is available on Open Data Toronto at [https://open.toronto.ca/dataset/king-st-transit-pilot-traffic-pedestrian-volumes-summary/](https://open.toronto.ca/dataset/king-st-transit-pilot-traffic-pedestrian-volumes-summary/). It can be downloaded programmatically via the API, with example `R` code provided in the file "00-download_data.R".This dataset pertains to the King Street Transit Pilot, which commenced on November 12, 2017[@toronto_transit_data_2017,@toronto_king_street_proposal_2017a], and was implemented along King Street between Bathurst Street and Jarvis Street. The pilot aimed to prioritize streetcar traffic over private vehicles to improve transit reliability, speed, and capacity. The dataset provides monthly updates on traffic and pedestrian volumes recorded within the pilot area throughout the project, offering valuable data for analyzing the impacts of this transit initiative. It serves as a critical resource for evaluating the effectiveness of the pilot in optimizing urban transit and informing future city planning and transportation policies.
+
+The dataset provides detailed monthly updates on traffic and pedestrian volumes within the King Street Transit Pilot area, covering the stretch between Bathurst Street and Jarvis Street. Data collection was conducted at 21 intersections in the pilot area using a video-based counting system. The collected volumes are categorized into three main groups: vehicles, bicycles, and pedestrians.Each month, data captures approximately one week of activity, with more intensive data collection carried out during the initial months of the pilot. The counts are presented in a structured format, including breakdowns by specific time periods (e.g., AM peak, PM peak) and by intersection approach legs (North, South, East, West) as well as direction of travel (Northbound, Southbound, Eastbound, Westbound).
+
+## Overview
+
+After introducing the source and background of the data, here we will explain how to use the `R` language [@RCoreTeam] functions and some additional packages learned in the course to process the data. Here is a unified overview. The `dplyr` package [@dplyr] is a grammar of data manipulation, providing a consistent set of verbs that help us solve the most common data manipulation challenges. In this package, this article mainly uses the `mutate` function and the `filter`[@dplyrFilter] function, where the `mutate`[@dplyrMutate] function creates new columns that are functions of existing variables. The `filter` function is used to subset a data frame, retaining all rows that satisfy conditions.In the visualization stage, this article uses the `ggplot`[@ggplot2] package to draw graphics, and when analyzing the results, in order to see the output results more intuitively, this article also uses the `xtable`[@xtable] package to convert the results into `LaTex` format for output. Finally, in order to output the variable data that needs to be analyzed, this article also draws on the `arrow`[@arrowR] package recommended in the course to output data in `parquet` format.
+
+## Measurement
+
+First, in order to better understand the data variables, the variable names and their specific explanations are given in Table 1.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{lp{10cm}}
+\toprule
+\textbf{Variable Name} & \textbf{Description} \\ 
+\midrule
+\texttt{aggregation\_period} & Month or baseline period for the data collection. Represents the time frame of aggregated counts. \\
+\texttt{int\_id} & Unique identifier for each intersection. Can be linked to the intersection geometry dataset. \\ 
+\texttt{intersection\_name} & Name of the intersection where data was collected. \\ 
+\texttt{px} & Traffic signal ID, which can be joined to the traffic signal dataset for additional details. \\ 
+\texttt{classification} & Category of observed traffic users. Differentiates between pedestrians, vehicles, and cyclists. \\ 
+\texttt{dir} & Direction of travel at the intersection, including Northbound (\texttt{NB}), Southbound (\texttt{SB}), Eastbound (\texttt{EB}), and Westbound (\texttt{WB}). \\ 
+\texttt{period\_name} & The time period during which data was collected. \\ 
+\texttt{volume} & Observed count of users (vehicles, bicycles, or pedestrians) during the specified period. \\ 
+\bottomrule
+\end{tabular}
+\caption{Variable descriptions for the King Street Transit Pilot dataset.}
+\label{table:variables}
+\end{table}
+
+After further analysis of the data set, we found that the first column, named `id`, indicates the number of data in the data set, and the second column, named `aggregation_period`, indicates the time when the data was collected. These are irrelevant to the variables required for model building, so they are no longer used in subsequent data analysis. The third column, named `intersection_name`, indicates the intersection where the data was collected. Since we are verifying Bathurst Street and Jarvis Street, we assign 1 to the intersection where one of these two streets exists in the data, otherwise 0, to construct a binary dummy variable[@wikipedia_dummy_variable]. The fourth column, named `px`, corresponds to intersection_name, so it is no longer considered again. The fifth column, named `classification`, indicates Differentiates between pedestrians, vehicles, and cyclists. It is treated as a multi-classification (3-classification) variable in the model building. The last two variables, `period_name` and `volume`, cannot be considered as a single period because `period_name` can distinguish many time periods (subsequent model improvements are also based on this). Therefore, they are considered as multi-classification variables. Finally, `volume`, a numerical data, is constructed as the dependent variable of the model. At the same time, the data can be transformed accordingly and put into the model (such as logarithmic transformation).
+
+## Statistical analysis of important variables 
+
+### Variable 1:Intersection_name
+
+The dataset contains 21 unique intersections,as shown in Table 2. The different intersections and statistical numbers are shown in the following table.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{lc}
+\toprule
+\textbf{Intersection Name} & \textbf{Record Count} \\ 
+\midrule
+Spadina Ave / King St W & 432 \\
+Queen St E / Jarvis St & 384 \\
+Jarvis St / Lower Jarvis St / Front St E & 384 \\
+Spadina Ave / Front St W & 384 \\
+Bathurst St / King St W & 384 \\
+Bay St / Front St W & 384 \\
+Bathurst St / Queen St W & 384 \\
+Bay St / King St W & 384 \\
+Spadina Ave / Queen St W & 384 \\
+King St E / Jarvis St & 384 \\
+Bay St / Queen St W & 384 \\
+Bathurst St / Front St W & 384 \\
+Bathurst St / Richmond St W & 256 \\
+Richmond St E / Jarvis St & 256 \\
+Spadina Ave / Richmond St W & 256 \\
+Bay St / Wellington St W & 256 \\
+Bay St / Adelaide St W & 256 \\
+Spadina Ave / Adelaide St W & 256 \\
+Adelaide St E / Jarvis St / St. James Park Trl & 256 \\
+Bay St / Richmond St W & 256 \\
+Bathurst St / Adelaide St W & 252 \\
+\bottomrule
+\end{tabular}
+\caption{Intersection Name Statistics}
+\label{table:intersection_stats}
+\end{table}
+
+
+```{r echo=FALSE,message=FALSE,warning=FALSE,results='hide'}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+
+library("opendatatoronto")
+# install.packages("dplyr")
+library("dplyr")
+
+# get package
+#package <- show_package("c6a251fb-e5dc-4d9e-803a-8941501d94a3")
+#package
+
+# get all resources for this package
+resources <- list_package_resources("c6a251fb-e5dc-4d9e-803a-8941501d94a3")
+
+# identify datastore resources; by default, Toronto Open Data sets datastore resource format to CSV for non-geospatial and GeoJSON for geospatial resources
+datastore_resources <- filter(resources, tolower(format) %in% c('csv', 'geojson'))
+
+# load the first datastore resource as a sample
+data <- filter(datastore_resources, row_number()==1) %>% get_resource()
+
+# Load necessary libraries
+library(ggplot2)
+library(dplyr)
+library(readxl)
+
+# Summarize data by intersection
+intersection_summary <- data %>%
+  group_by(intersection_name) %>%
+  summarise(total_volume = sum(volume, na.rm = TRUE),
+            mean_volume = mean(volume, na.rm = TRUE),
+            volume_sd = sd(volume, na.rm = TRUE)) %>%
+  arrange(desc(total_volume))
+
+
+# Box plot for volume distribution by intersection
+ggplot(data, aes(x = intersection_name, y = volume)) +
+  geom_boxplot(aes(fill = intersection_name), show.legend = FALSE) +
+  labs(title = "Volume Distribution by Intersection",
+       x = "Intersection Name",
+       y = "Traffic Volume") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+
+
+### Variable 2:Classification
+
+The dataset contains 3 unique classifications,as shown in Table 3.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{lc}
+\toprule
+\textbf{Classification} & \textbf{Record Count} \\ 
+\midrule
+Pedestrians & 2702 \\
+Cyclists & 2127 \\
+Vehicles & 2127 \\
+\bottomrule
+\end{tabular}
+\caption{Classification Statistics}
+\label{table:classification_stats}
+\end{table}
+
+The box plot of volume distribution by classification reveals distinct traffic patterns, with Vehicles showing the highest median traffic volume of 1,611.0, indicating that vehicles dominate traffic activity in the dataset. The interquartile range (IQR) for vehicles spans approximately 900 to 2,800, suggesting significant variability in vehicle activity across different periods or locations. Pedestrians follow with a median volume of 1,422.5 and a narrower IQR of 800 to 2,200, reflecting consistent foot traffic but at slightly lower volumes than vehicles. Cyclists, on the other hand, have the lowest median volume of 74.0, with an IQR of 50 to 150, indicating limited bicycle activity in comparison to the other classifications. Outliers are particularly noticeable for vehicles, with some volumes exceeding 5,000, likely representing peak traffic or specific high-demand events. 
+
+```{r echo=FALSE,message=FALSE,warning=FALSE,results='hide'}
+## Volume Distribution by Classification
+
+# Filter the data to ensure "volume" is numeric and relevant classifications are included
+classification_summary <- data %>%
+  mutate(volume = as.numeric(volume)) %>%
+  filter(classification %in% c("Pedestrians", "Cyclists", "Vehicles"))
+
+# Box plot: Volume distribution by classification
+ggplot(classification_summary, aes(x = classification, y = volume, fill = classification)) +
+  geom_boxplot(outlier.colour = "red", outlier.size = 2) +
+  labs(title = "Volume Distribution by Classification",
+       x = "Classification",
+       y = "Volume") +
+  theme_minimal()
+```
+
+### Variable 3:Period_Name
+
+The dataset contains 8 unique period_names,as shown in Table 4. 
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{lc}
+\toprule
+\textbf{Period Name} & \textbf{Record Count} \\ 
+\midrule
+Afternoon (12:00-17:00) & 1080 \\
+AM Peak Period (07:00-10:00) & 1080 \\
+Evening (17:00-22:00) & 1080 \\
+Morning (08:00-12:00) & 1080 \\
+PM Peak Period (16:00-19:00) & 1080 \\
+14 Hour & 672 \\
+Midday (10:00-16:00) & 672 \\
+24 Hour & 212 \\
+\bottomrule
+\end{tabular}
+\caption{Period Name Statistics}
+\label{table:period_name_stats}
+\end{table}
+
+The box plot of traffic volume by period_name reveals significant differences in traffic patterns across time periods. For example, “PM Peak Period (16:00-19:00)” shows the highest median traffic volume at approximately 2,500, with an interquartile range (IQR) between 1,500 and 4,000, indicating consistent high activity during evening rush hours. Conversely, “24 Hour” has the lowest median volume at around 800, with a narrower IQR (500–1,200), reflecting reduced overall activity over a full day. Outliers are most prominent in “Morning (08:00-12:00)” and “14 Hour”, where some volumes exceed 10,000, potentially due to events or anomalies. Variability is highest during “Afternoon (12:00-17:00)” and “Evening (17:00-22:00)”, with whiskers extending over a wide range. 
+
+```{r echo=FALSE,message=FALSE,warning=FALSE,results='hide',fig.width=8,fig.height=6}
+# Box plot: Traffic volume distribution by period_name
+ggplot(data, aes(x = period_name, y = as.numeric(volume), fill = period_name)) +
+  geom_boxplot(outlier.colour = "red", outlier.size = 2) +
+  labs(title = "Volume Distribution by Period Name",
+       x = "Period Name",
+       y = "Volume") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1), 
+    legend.position = "bottom",                      
+    legend.title = element_text(size = 10),           
+    legend.text = element_text(size = 8)              
+  ) +
+  guides(fill = guide_legend(nrow = 2, byrow = TRUE))  
+```
+
+# Model {#sec-model}
+
+## Model Building
+
+According to the dataset introduction, selection of important datasets, and visualization of single and interactive datasets, we hope to build a model to verify whether the pilot project launched between Bathurst Street and Jarvis Street has improved the reliability, speed and capacity of traffic. Therefor, this article first builds the model as follows: classification (Pedestrians, Cyclists, Vehicles) is used as a categorical variable, and a dummy variable is generated. For the Intersection_name variable containing "Bathurst" or "Jarvis", it is used as a 1-0 variable. If the Intersection_name variable contains "Bathurst" or "Jarvis", we set it to 1, otherwise it is 0. Volume is modeled as the dependent variable, and its mathematical expression is
+
+\begin{equation}
+volume=\beta_{0}+\beta_{1}Pedestrians+\beta_{2}Vehicles+\beta_{3}interaction_{binary}+\epsilon
+\end{equation}
+
+In the expression, volume represents the dependent variable (traffic volume), Pedestrians represents a dummy variable (indicates whether it is pedestrian data, then the value is 1, otherwise it is 0. Vehicles is also a dummy variable (indicates whether it is vehicle data, if yes, the value is 1, otherwise 0). cyclists is used as the reference group. intersection_binary is a binary variable, indicating whether the intersection is "Bathurst" or "Jarvis". $\epsilon$ represents random error, which generally obeys a normal distribution.
+
+The preliminary modeling results are as follows：
+
+```{r echo=FALSE,message=FALSE,warning=FALSE,results='hide'}
+data <- data %>%
+  mutate(intersection_binary = ifelse(grepl("Bathurst|Jarvis", intersection_name, ignore.case = TRUE), 1, 0))
+
+data$classification <- as.factor(data$classification)
+
+model_1 <- lm(volume ~ classification + intersection_binary, data = data)
+
+
+#summary(model)
+
+#library(xtable)
+
+#summary_xtable <- xtable(summary(model))
+
+#print(summary_xtable)
+```
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrr}
+  \hline
+ & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
+  \hline
+(Intercept) & 508.9107 & 47.3276 & 10.75 & 0.0000 \\ 
+  classificationPedestrians & 1824.9326 & 55.8484 & 32.68 & 0.0000 \\ 
+  classificationVehicles & 2126.6516 & 59.0786 & 36.00 & 0.0000 \\ 
+  intersection\_binary & -709.9550 & 46.2475 & -15.35 & 0.0000 \\ 
+   \hline
+\end{tabular}
+\caption{Modeling results of the initial model}
+\end{table}
+
+After linearity, homogeneity of variance, and residual normality tests, it was found that the results were not ideal. From the visualization diagram((Appendix B_1), it can be seen intuitively that it does not meet the assumptions required by the linear model, so the model needs to be improved.
+
+
+
+
+## Model Improvements
+
+In order to further improve the model, we consider adding the period_name variable. Because the volume of different time periods varies greatly, we add the period_name variable as a multi-classification variable to the original model for modeling in the improved model. Its mathematical expression is 
+\begin{equation}
+volume=\beta_{0}+\beta_{1}Pedestrians+\beta_{2}Vehicles+\beta_{3}interaction_{binary}+\sum\limits_{k=1}^{K-1}\beta_{k+3}period_{name_k}+\epsilon
+\end{equation}
+In the expression, the former variable has the same interpretation as in model 1, and $period_{name_{k}}$ is a time period classification variable containing $K$ categories, where $K$ is 8.
+
+```{r echo=FALSE,message=FALSE,warning=FALSE,results='hide'}
+data <- data %>%
+  mutate(intersection_binary = ifelse(grepl("Bathurst|Jarvis", intersection_name, ignore.case = TRUE), 1, 0))
+
+data$classification <- as.factor(data$classification)
+data$period_name <- as.factor(data$period_name)
+
+model_2 <- lm(volume ~ classification + intersection_binary + period_name, data = data)
+
+#summary(model_2)
+
+#library(xtable)
+
+#summary_xtable <- xtable(summary(model_2))
+
+#print(summary_xtable)
+```
+
+The results of the improved model are as follows
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrr}
+  \hline
+ & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
+  \hline
+(Intercept) & 2904.2470 & 70.4428 & 41.23 & 0.0000 \\ 
+  classificationPedestrians & 1828.1000 & 46.3646 & 39.43 & 0.0000 \\ 
+  classificationVehicles & 2126.6516 & 49.0462 & 43.36 & 0.0000 \\ 
+  intersection\_binary & -688.9816 & 38.3977 & -17.94 & 0.0000 \\ 
+  period\_name24 Hour & 1309.1426 & 125.9938 & 10.39 & 0.0000 \\ 
+  period\_nameAfternoon (12:00-17:00) & -2846.9106 & 78.5888 & -36.23 & 0.0000 \\ 
+  period\_nameAM Peak Period (07:00-10:00) & -3056.8523 & 78.5888 & -38.90 & 0.0000 \\ 
+  period\_nameEvening (17:00-22:00) & -2697.8773 & 78.5888 & -34.33 & 0.0000 \\ 
+  period\_nameMidday (10:00-16:00) & -2333.5967 & 87.2579 & -26.74 & 0.0000 \\ 
+  period\_nameMorning (08:00-12:00) & -2970.3300 & 78.5888 & -37.80 & 0.0000 \\ 
+  period\_namePM Peak Period (16:00-19:00) & -2733.2106 & 78.5888 & -34.78 & 0.0000 \\ 
+   \hline
+\end{tabular}
+\caption{Improved model building results}
+\end{table}
+
+After linearity, homogeneity of variance, and residual normality tests, the results are still not ideal. From the visualization diagram(Appendix B_2), we can intuitively see that although it is improved compared to the first model, it still does not meet the basic assumptions required by the linear model. Therefore, the model needs to be further improved.
+
+
+## Further Model Improvements
+
+Based on the previous two models, due to the large difference in volume, in this model, I took the logarithm of the volume value for modeling analysis. The specific mathematical expression is as follows
+\begin{equation}
+\log volume=\beta_{0}+\beta_{1}Pedestrians+\beta_{2}Vehicles+\beta_{3}interaction_{binary}+\sum\limits_{k=1}^{K-1}\beta_{k+3}period_{name_k}+\epsilon
+\end{equation}
+This expression follows the previous results, and for the dependent variable, the logarithm is taken as the dependent variable of the new model, and this model is used as the final model for modeling. The results of the modeling will be elaborated in detail in the next section.
+
+
+# Results {#sec-results}
+
+Through the above modeling, we obtained a linear model with log-volume as the dependent variable, and binary and multi-classification variables as the independent variables. In this section, we will give the results of the final model, and re-test the assumptions required by the model and give corresponding discussions.
+
+## Model Results
+
+By running the R code, the estimated coefficients, standard deviations, t-values, and p-values ​​of the independent variables are first given.
+
+```{r echo=FALSE,message=FALSE,warning=FALSE,results='hide'}
+data <- data %>%
+  mutate(intersection_binary = ifelse(grepl("Bathurst|Jarvis", intersection_name, ignore.case = TRUE), 1, 0))
+
+data$classification <- as.factor(data$classification)
+data$period_name <- as.factor(data$period_name)
+
+data$log_volume <- log(data$volume + 1)  
+
+log_model <- lm(log_volume ~ classification + intersection_binary + period_name, data = data)
+
+#summary(log_model)
+```
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrr}
+  \hline
+ & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
+  \hline
+(Intercept) & 5.7476 & 0.0460 & 124.84 & 0.0000 \\ 
+  classificationPedestrians & 2.6326 & 0.0303 & 86.88 & 0.0000 \\ 
+  classificationVehicles & 2.8213 & 0.0321 & 88.01 & 0.0000 \\ 
+  intersection\_binary & -0.5716 & 0.0251 & -22.78 & 0.0000 \\ 
+  period\_name24 Hour & 0.3836 & 0.0823 & 4.66 & 0.0000 \\ 
+  period\_nameAfternoon (12:00-17:00) & -1.3993 & 0.0514 & -27.24 & 0.0000 \\ 
+  period\_nameAM Peak Period (07:00-10:00) & -1.4924 & 0.0514 & -29.06 & 0.0000 \\ 
+  period\_nameEvening (17:00-22:00) & -1.0790 & 0.0514 & -21.01 & 0.0000 \\ 
+  period\_nameMidday (10:00-16:00) & -0.9272 & 0.0570 & -16.26 & 0.0000 \\ 
+  period\_nameMorning (08:00-12:00) & -1.3773 & 0.0514 & -26.81 & 0.0000 \\ 
+  period\_namePM Peak Period (16:00-19:00) & -1.0947 & 0.0514 & -21.31 & 0.0000 \\ 
+   \hline
+\end{tabular}
+\caption{Final modeling results}
+\end{table}
+
+The model equation satisfied by the data is
+$$
+\log volume=5.75+2.63Pedestrians+2.82Vehicles-0.57interaction_{binary}+0.38period_{24 Hour}
+$$
+$$
+-1.40period_{Afternoon}-1.08period_{AM Peak}-0.928period_{Midday}
+$$
+\begin{equation}
+-1.37period_{Morning}-1.09period_{PM Peak}
+\end{equation}
+
+The $R^2$ values of the three models established are 0.2051, 0.4527, and 0.6345 respectively. From the perspective of $R^2$, the logarithmic model is the best choice.
+
+\begin{table}
+\centering
+\caption{Comparison of $R^2$ Values for Different Models}
+\begin{tabular}{ll}
+\toprule
+Model & $R^2$ \\
+\midrule
+model\_1 & 0.2051 \\
+model\_2 & 0.4527 \\
+log\_model & 0.6345 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The results of the above logarithmic model are diagnosed from the perspectives of linearity, variance homogeneity, and residual normality. From the following figure(Appendix B_3), we can easily see that for the test of linearity (the first figure), the residuals are randomly distributed on both sides of the zero line, without obvious trends or patterns, so the linearity is satisfied. For the variance homogeneity test, it can be seen that the scattered points are evenly distributed along the zero line, satisfying the variance homogeneity. For the residual normality test, the QQ plot points are close to the reference line, so the residuals are close to the normal distribution, and the assumption is satisfied. From the histogram, the residuals are centered at 0 and are symmetrically bell-shaped, so the normality test is satisfied. All tests passed, so the logarithmic model is the final model selected in this article.
+
+From the final expression of the model, it can be seen that when the area is selected on Bathurst Street or Jarvis Street, the volume is significantly reduced. This may be because the priority is given to trams rather than private cars in the area, resulting in a reduction in vehicles. Since this section is the busiest section, the overall actual traffic flow is unlikely to decrease, while the data volume shows a decrease. This is because people choose trams for transportation.
+
+# Discussion {#sec-discussion}
+
+## Tram priority policy improves traffic capacity
+
+The model results show that by gradually optimizing the model variables, the explanatory power is significantly improved: the basic model (Model 1,$R^2$ = 0.2051) only includes traffic classification and intersection characteristics, and has low explanatory power; the model adding time period variables (Model 2 , $R^2$ = 0.4527) and the model with logarithmic transformation of the dependent variable (Log Model, $R^2$ = 0.6345) can better reflect changes in traffic capacity. Combined with the coefficient analysis of traffic classification variables, the traffic volume contribution of vehicles (Vehicles) is significantly higher than that of cyclists and pedestrians, while the intersection characteristic variables indicate that the traffic volume of "Bathurst" and "Jarvis" is relatively low, which may be related to the pilot policy reduction Related to interference with private vehicle traffic. However, while prioritizing trams may have reduced traffic bottlenecks and improved traffic efficiency, whether the decline in private car traffic has a negative impact on overall traffic capacity requires further verification. From the perspective of the purpose of the policy, if the traffic reduction during peak periods is mainly concentrated on private cars and the tram traffic is stable or even increases, then the policy goal is basically achieved; but if the overall traffic flow drops significantly, the policy effect may need to be refined. analyze. Therefore, further hierarchical analysis of the flow trends of various transportation modes, especially the performance during peak periods, is the key to evaluating the effectiveness of policies.[@higgins2024modelling]
+
+## Effects of time period and intersection characteristics on traffic reliability and speed
+
+In the improvement of the model, the time period variable significantly improves the explanatory power of traffic flow, while the intersection characteristic variables show that at key intersections such as "Bathurst" and "Jarvis", the traffic volume decreases significantly. Combined with the objectives of the pilot policy, this may reflect improved traffic reliability by reducing tram waiting times by prioritizing tram traffic signal configuration. The variable coefficients of time periods show that traffic patterns vary greatly in different periods, and the implementation effects of priority policies may also change over time. During peak hours, reducing private vehicle traffic may significantly alleviate traffic pressure and increase tram speeds, but during off-peak periods, whether this policy leads to idle resources and low traffic efficiency requires further evaluation. Pilot policies can combine the modeling results of time periods to explore whether priority strategies can be strictly enforced during peak periods and relaxed restrictions on private cars during off-peak periods to manage traffic flow more flexibly.
+
+## Weaknesses and next steps
+
+### Analysis of model weaknesses
+
+Although the three models gradually improved their explanatory power ($R^2$ improved from 0.2051 to 0.6345), there are still some limitations that may affect the comprehensive assessment of policy effects. First, the model only focuses on traffic volume (volume) as the dependent variable and does not directly analyze traffic reliability (such as delay time or waiting time) and speed (such as average traffic speed). Although difficult to quantify directly, these factors are critical to the assessment of policy priorities. In addition, the model assumes that the relationship between variables is linear and may fail to capture complex nonlinear interaction effects. For example, the strength of restrictions on private cars at different times or at specific intersections may significantly affect the flow of other modes of transportation. Secondly, the model does not fully consider the dynamic changes in time and space, especially the short-term or long-term impact of different time periods, weather conditions, events (such as holidays) on traffic patterns, which may lead to biased results.
+
+### Next steps
+
+To improve the model from a more specific and small level, we can focus on the following aspects: First, introduce micro indicators such as tram punctuality, average speed per trip, and passenger volume during peak hours to quantify the impact of the policy on traffic reliability and speed, rather than relying solely on traffic volume as a single evaluation indicator. Second, at the intersection level, we can combine specific variables such as signal timing data, vehicle waiting time, and tram passing time at each intersection to analyze the changes in traffic efficiency at different intersections, providing a direct basis for optimizing priority signal control. Finally, increase observations on pedestrian and cyclist traffic, evaluate whether the tram priority policy has a negative impact on the passage of non-motor vehicles and pedestrians, and reduce potential conflicts through intersection design or diversion measures. These specific improvement measures can help more accurately identify detailed problems in policy implementation and provide targeted optimization solutions.
+
+From the perspective of model improvement, we can consider introducing nonlinear models or interaction terms to capture the complex relationship between time periods, intersection characteristics and traffic modes, such as using generalized linear models (GLM), decision trees or random forests to better characterize the nonlinearity and high-order interactions between variables.
+
+\newpage
+
+# Appendix
+
+## Appendix A Interaction analysis of data
+
+Intersection_name and Classification are combined for analysis. Through visualization, we can clearly see the detailed changes in the volume for different Classifications and different Intersection_names. It can be seen that the comparison of the volume in the pilot Bathurst and Jarvis area.This visualization is similar to the modeling result above, which is due to the negative coefficient of the variable `intersection_binary`.
+
+```{r echo=FALSE,message=FALSE,warning=FALSE,results='hide'}
+# Visualization : Average volume by intersection
+intersection_summary <- data %>%
+  group_by(intersection_name, classification) %>%
+  summarise(avg_volume = mean(volume, na.rm = TRUE)) %>%
+  arrange(desc(avg_volume))
+
+ggplot(intersection_summary, aes(x = reorder(intersection_name, avg_volume), y = avg_volume, fill = classification)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(x = "Intersection",
+       y = "Average Volume",
+       fill = "Classification") +
+  coord_flip() +
+  theme_minimal()
+```
+
+## Appendix B Model diagnostics visualization results
+
+### Initial Model Model Diagnostics
+
+Appendix B_1:Judging from the model diagnostic results, the linear model assumptions do not seem to be met.
+
+```{r echo=FALSE,message=FALSE,warning=FALSE,results='hide'}
+residuals <- residuals(model_1)
+fitted_values <- fitted(model_1)
+
+par(mfrow = c(2, 2))  
+
+plot(fitted_values, residuals,
+     xlab = "Fitted Values",
+     ylab = "Residuals",
+     main = "Residuals vs Fitted Values",
+     pch = 20, col = "blue")
+abline(h = 0, col = "red")
+
+sqrt_abs_residuals <- sqrt(abs(residuals))
+plot(fitted_values, sqrt_abs_residuals,
+     xlab = "Fitted Values",
+     ylab = "Sqrt(|Residuals|)",
+     main = "Scale-Location Plot",
+     pch = 20, col = "blue")
+abline(h = 0, col = "red")
+
+qqnorm(residuals, main = "QQ Plot of Residuals")
+qqline(residuals, col = "red")
+
+hist(residuals, breaks = 30, main = "Histogram of Residuals", xlab = "Residuals", col = "blue")
+
+par(mfrow = c(1, 1)) 
+```
+### Improved model diagnostics
+
+Appendix B_2:Judging from the model diagnostic results, the linear model assumptions also do not seem to be met.
+
+```{r echo=FALSE,message=FALSE,warning=FALSE,results='hide'}
+residuals <- residuals(model_2)
+fitted_values <- fitted(model_2)
+
+par(mfrow = c(2, 2))  
+
+plot(fitted_values, residuals,
+     xlab = "Fitted Values",
+     ylab = "Residuals",
+     main = "Residuals vs Fitted Values",
+     pch = 20, col = "blue")
+abline(h = 0, col = "red")
+
+sqrt_abs_residuals <- sqrt(abs(residuals))
+plot(fitted_values, sqrt_abs_residuals,
+     xlab = "Fitted Values",
+     ylab = "Sqrt(|Residuals|)",
+     main = "Scale-Location Plot",
+     pch = 20, col = "blue")
+abline(h = 0, col = "red")
+
+qqnorm(residuals, main = "QQ Plot of Residuals")
+qqline(residuals, col = "red")
+
+hist(residuals, breaks = 30, main = "Histogram of Residuals", xlab = "Residuals", col = "blue")
+
+
+par(mfrow = c(1, 1))
+```
+
+### Final Model Model Diagnostics
+Appendix B_3:Judging from the model diagnosis results, the linear model assumptions can basically be met.
+```{r echo=FALSE,message=FALSE,warning=FALSE,results='hide'}
+residuals <- residuals(log_model)
+fitted_values <- fitted(log_model)
+par(mfrow = c(2, 2))  
+
+plot(fitted_values, residuals,
+     xlab = "Fitted Values",
+     ylab = "Residuals",
+     main = "Residuals vs Fitted Values",
+     pch = 20, col = "blue")
+abline(h = 0, col = "red")
+
+sqrt_abs_residuals <- sqrt(abs(residuals))
+plot(fitted_values, sqrt_abs_residuals,
+     xlab = "Fitted Values",
+     ylab = "Sqrt(|Residuals|)",
+     main = "Scale-Location Plot",
+     pch = 20, col = "blue")
+abline(h = 0, col = "red")
+
+qqnorm(residuals, main = "QQ Plot of Residuals")
+qqline(residuals, col = "red")
+
+hist(residuals, breaks = 30, main = "Histogram of Residuals", xlab = "Residuals", col = "blue")
+
+par(mfrow = c(1, 1))  
+```
+\newpage
+# References
