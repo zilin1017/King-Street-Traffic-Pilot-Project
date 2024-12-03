@@ -1,10 +1,6 @@
 
 
 # Load necessary libraries
-
-install.packages("ggplot2")
-install.packages("readxl")
-install.packages("dplyr")
 library(ggplot2)
 library(readxl)
 library(dplyr)
@@ -50,21 +46,16 @@ ggsave("volume_by_time_period.png")
 ggsave("volume_by_intersection.png")
 ggsave("volume_by_direction.png")
 
-
-install.packages("ggbeeswarm")
 library(ggbeeswarm)
 
 
 filtered_data <- data %>%
   filter(classification %in% c("Pedestrians", "Vehicles", "Cyclists"))
 
-# ------------------- Bar Chart -------------------
-# Aggregate total volume by classification
 bar_data <- filtered_data %>%
   group_by(classification) %>%
   summarise(total_volume = sum(volume, na.rm = TRUE))
 
-# Bar plot
 ggplot(bar_data, aes(x = classification, y = total_volume, fill = classification)) +
   geom_bar(stat = "identity") +
   labs(title = "Total Volume by Classification",
@@ -72,8 +63,6 @@ ggplot(bar_data, aes(x = classification, y = total_volume, fill = classification
        y = "Total Volume") +
   theme_minimal()
 
-# ------------------- Density Plot -------------------
-# Density plot for volume distribution by classification
 ggplot(filtered_data, aes(x = volume, fill = classification)) +
   geom_density(alpha = 0.5) +
   labs(title = "Density Plot of Volume by Classification",
@@ -81,8 +70,6 @@ ggplot(filtered_data, aes(x = volume, fill = classification)) +
        y = "Density") +
   theme_minimal()
 
-# ------------------- Violin Plot -------------------
-# Violin plot showing the distribution of volumes by classification
 ggplot(filtered_data, aes(x = classification, y = volume, fill = classification)) +
   geom_violin(trim = FALSE, alpha = 0.7) +
   labs(title = "Violin Plot of Volume by Classification",
@@ -90,8 +77,6 @@ ggplot(filtered_data, aes(x = classification, y = volume, fill = classification)
        y = "Volume") +
   theme_minimal()
 
-# ------------------- Bee Swarm Plot -------------------
-# Bee swarm plot showing volume by classification
 ggplot(filtered_data, aes(x = classification, y = volume, color = classification)) +
   geom_beeswarm(alpha = 0.7) +
   labs(title = "Bee Swarm Plot of Volume by Classification",
