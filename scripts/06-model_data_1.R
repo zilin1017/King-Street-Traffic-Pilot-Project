@@ -6,7 +6,6 @@
 # License: MIT
 # Pre-requisites: 
 #- The `dplyer` packages must be installed.
-#- Ensure that `loblaws_analysis_data.parquet` is available in the specified path "path_to_data.csv".
 
 # Load necessary libraries
 library(dplyr)
