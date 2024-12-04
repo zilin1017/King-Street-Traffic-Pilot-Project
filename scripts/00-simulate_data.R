@@ -1,3 +1,11 @@
+#### Preamble ####
+# Purpose: Simulates a dataset from opentoronto
+# Author: Irene Liu
+# Date: 20 November 2024
+# Contact: liuzilin.liu@mail.utornto.ca
+# License: MIT
+# Pre-requisites: The `opendatatorotno` and `dplyr` packages must be installed,set.seed(42).
+
 library("opendatatoronto")
 library("dplyr")
 
