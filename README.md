@@ -16,4 +16,4 @@ This repo contains project with the King Street Transit Pilot is a focused proje
 
 ## Statement on LLM usage
 
-Usage of LLM is in others/LLM and some coding are with helps of of ChatGPT,this file is a link that can be opened for viewing.
+Usage of LLM is in others/LLM and some coding are with helps of of ChatGPT, this file is a link that can be opened for viewing.
