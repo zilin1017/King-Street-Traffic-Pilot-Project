@@ -4,7 +4,7 @@
 # Date: 20 November 2024
 # Contact: liuzilin.liu@mail.utornto.ca
 # License: MIT
-# Pre-requisites: The `dplyer` packages must be installed.
+# Pre-requisites: The `dplyer`, `ggplot2` packages must be installed.
 
 
 # load the first datastore resource as a sample
