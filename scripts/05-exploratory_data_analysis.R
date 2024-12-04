@@ -1,3 +1,12 @@
+#### Preamble ####
+# Purpose: Summarize volume data by classification and time period, and visulize each plots with each factors to traffic volume.
+# Author: Irene Liu
+# Date: 20 November 2024
+# Contact: liuzilin.liu@mail.utornto.ca
+# License: MIT
+# Pre-requisites: The `dplyer` packages must be installed.
+
+
 # load the first datastore resource as a sample
 data <- filter(datastore_resources, row_number()==1) %>% get_resource()
 
