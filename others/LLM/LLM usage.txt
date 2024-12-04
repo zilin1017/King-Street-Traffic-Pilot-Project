@@ -1,6 +1,6 @@
-Q: 
+# Q: 
 The bib in qmd cannot be edited?
-A: 
+# A: 
 When working with Quarto Markdown (.qmd) files, it's important to understand how bibliographic references are managed. Typically, the bibliography is specified in the document's YAML front matter, and the actual references are stored in an external .bib file. This approach allows for centralized management of references, facilitating reuse across multiple documents.
 
 Editing Bibliographic References in Quarto:
@@ -23,9 +23,9 @@ This will render Einstein's famous equation. Let me know how I can assist furthe
 
 
 
-Q: 
+# Q: 
 The bib in qmd（In Rstudio） cannot be edited
-A: 
+# A: 
 If the .bib file in your Quarto Markdown (.qmd) project (while using RStudio) cannot be edited, here are possible reasons and solutions:
 Possible Issues and Solutions:
 1. File Permissions Issue
@@ -72,9 +72,9 @@ Save changes and re-render your .qmd file to apply updates.
 If you still face issues, let me know the exact error or restriction you're encountering!
 
 
-Q:
+# Q:
 How to display links in qmd files
-A:
+# A:
 To display links in a Quarto Markdown (.qmd) file, you can use Markdown syntax. Here’s how to include links effectively:
 1. Basic Links
 To display a clickable link:
@@ -123,14 +123,12 @@ Let me know if you need more help with linking or advanced formatting in Quarto!
 
 
 
-Q:
+# Q:
 How to convert a table into latex code
-A:
+# A:
 To convert a table into LaTeX code, you need to format it using the LaTeX tabular or table environments. Here's a step-by-step guide:
-
 1. Prepare Your Table Data
 For example, consider the following table:
-
 Name	Age	Occupation
 Alice	30	Engineer
 Bob	25	Designer
@@ -169,10 +167,8 @@ Charlie & 35 & Teacher \\ \hline
 \label{} allows referencing the table in your document.
 4. Converting Large Tables
 For large tables, use the longtable or tabularx packages in LaTeX for advanced formatting and page breaks.
-
 Example with longtable:
 \usepackage{longtable} % Include in preamble
-
 \begin{longtable}{|l|c|l|}
 \hline
 Name & Age & Occupation \\ \hline
@@ -182,15 +178,14 @@ Charlie & 35 & Teacher \\ \hline
 \end{longtable}
 5. Automatic Conversion Tools
 You can also use online tools or software to convert tables into LaTeX code:
-
 Online converters: Search for "Markdown to LaTeX table converter."
 Spreadsheet editors: Export tables as LaTeX directly from tools like Microsoft Excel or Google Sheets with add-ons like "Table Generator for LaTeX."
 Let me know if you'd like me to format a specific table into LaTeX for you!
 
 
-Q:
+# Q:
 How to verify the idea of ​​"improving the reliability, speed and capacity of transportation by giving priority to trams rather than private cars" with the given data set? How to build a model for analysis? Do not analyze variables that are not in the table. Try to use linear models for analysis.
-A:
+# A:
 To verify the idea that prioritizing trams improves the reliability, speed, and capacity of transportation, the given dataset can be utilized to focus on changes in traffic volumes and directions, particularly for classifications like cyclists and other forms of non-private transportation. We can use a linear model for the analysis as follows:
 Step 1: Define Hypotheses
 Null Hypothesis (H₀): Prioritizing trams does not significantly affect transportation reliability, speed, and capacity.
@@ -257,9 +252,9 @@ Evaluate if the shift aligns with improved capacity (higher volumes for trams or
 Would you like me to preprocess the dataset and create a detailed visualization or model for you?
 
 
-Q:
+# Q:
 Detailed analysis of the King St. Transit Pilot - Traffic and Pedestrian Volume Summary Dataset?
-A:
+# A:
 Summary of the Dataset
 The dataset includes information on traffic and pedestrian volumes for various intersections as part of the King Street Transit Pilot study. Here’s an overview:
 1. General Structure
