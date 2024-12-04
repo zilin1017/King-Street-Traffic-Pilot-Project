@@ -1,3 +1,14 @@
+#### Preamble ####
+# Purpose: Models the traffic volume based on classification, intersection of road and the period of time using  linear regression model.
+# Author: Irene Liu
+# Date: 20 November 2024
+# Contact: liuzilin.liu@mail.utornto.ca
+# License: MIT
+# Pre-requisites: 
+#- The data must be downloaded.
+#- The previous scripts must be run.
+
+
 data <- data %>%
   mutate(intersection_binary = ifelse(grepl("Bathurst|Jarvis", intersection_name, ignore.case = TRUE), 1, 0))
 
