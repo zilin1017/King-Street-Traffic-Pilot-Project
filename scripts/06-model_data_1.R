@@ -1,3 +1,13 @@
+#### Preamble ####
+# Purpose: Models the traffic volume based on classification, intersection of road and the period of time using  linear regression model.
+# Author: Irene Liu
+# Date: 20 November 2024
+# Contact: liuzilin.liu@mail.utornto.ca
+# License: MIT
+# Pre-requisites: 
+#- The `dplyer` packages must be installed.
+#- Ensure that `loblaws_analysis_data.parquet` is available in the specified path "path_to_data.csv".
+
 # Load necessary libraries
 library(dplyr)
 
