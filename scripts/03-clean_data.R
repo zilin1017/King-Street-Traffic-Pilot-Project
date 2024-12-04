@@ -1,3 +1,12 @@
+#### Preamble ####
+# Purpose: Analyze and clean the intersection name, use classification and period as factors to classify the traffic volume 
+# Author: Irene Liu
+# Date: 20 November 2024
+# Contact: liuzilin.liu@mail.utornto.ca
+# License: MIT
+# Pre-requisites: The `dplyer` packages must be installed.
+
+
 # Load necessary libraries
 library(dplyr)
 
