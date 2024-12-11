@@ -1,4 +1,4 @@
-# King-Street-Traffic-Pilot-Project
+# King Street Traffic Pilot Project
 
 ## Overview
 
