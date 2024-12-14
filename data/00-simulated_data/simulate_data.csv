@@ -1,0 +1,1457 @@
+"","intersection_name","classification","period_name","volume"
+"1","Queen St E / Jarvis St","Cyclists","14 Hour",171
+"2","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",67
+"3","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",19
+"4","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",81
+"5","Queen St E / Jarvis St","Cyclists","Midday (10:00-16:00)",67
+"6","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",36
+"7","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",65
+"8","Queen St E / Jarvis St","Cyclists","14 Hour",188
+"9","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",69
+"10","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",45
+"11","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",54
+"12","Queen St E / Jarvis St","Cyclists","Midday (10:00-16:00)",84
+"13","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",59
+"14","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",36
+"15","Queen St E / Jarvis St","Pedestrians","14 Hour",2211
+"16","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",950
+"17","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",346
+"18","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",803
+"19","Queen St E / Jarvis St","Pedestrians","Midday (10:00-16:00)",1016
+"20","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",560
+"21","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",698
+"22","Queen St E / Jarvis St","Pedestrians","14 Hour",2235
+"23","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",894
+"24","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",498
+"25","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",682
+"26","Queen St E / Jarvis St","Pedestrians","Midday (10:00-16:00)",986
+"27","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",669
+"28","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",598
+"29","Queen St E / Jarvis St","Vehicles","14 Hour",5022
+"30","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",2035
+"31","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",797
+"32","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",1967
+"33","Queen St E / Jarvis St","Vehicles","Midday (10:00-16:00)",2186
+"34","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",1203
+"35","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",1553
+"36","Queen St E / Jarvis St","Vehicles","14 Hour",5056
+"37","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",1388
+"38","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",1790
+"39","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",1393
+"40","Queen St E / Jarvis St","Vehicles","Midday (10:00-16:00)",1773
+"41","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",2048
+"42","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",994
+"43","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","14 Hour",620
+"44","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Afternoon (12:00-17:00)",178
+"45","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","AM Peak Period (07:00-10:00)",101
+"46","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Evening (17:00-22:00)",339
+"47","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Midday (10:00-16:00)",125
+"48","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Morning (08:00-12:00)",121
+"49","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","PM Peak Period (16:00-19:00)",330
+"50","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","14 Hour",2171
+"51","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",744
+"52","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",392
+"53","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",1008
+"54","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Midday (10:00-16:00)",763
+"55","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",531
+"56","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",830
+"57","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","14 Hour",2280
+"58","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",726
+"59","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",796
+"60","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",620
+"61","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Midday (10:00-16:00)",781
+"62","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",857
+"63","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",561
+"64","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","14 Hour",13809
+"65","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Afternoon (12:00-17:00)",5511
+"66","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","AM Peak Period (07:00-10:00)",2435
+"67","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Evening (17:00-22:00)",5695
+"68","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Midday (10:00-16:00)",5864
+"69","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Morning (08:00-12:00)",3426
+"70","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","PM Peak Period (16:00-19:00)",4033
+"71","Bay St / King St W","Cyclists","14 Hour",269
+"72","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",88
+"73","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",53
+"74","Bay St / King St W","Cyclists","Evening (17:00-22:00)",113
+"75","Bay St / King St W","Cyclists","Midday (10:00-16:00)",95
+"76","Bay St / King St W","Cyclists","Morning (08:00-12:00)",73
+"77","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",94
+"78","Bay St / King St W","Cyclists","14 Hour",215
+"79","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",71
+"80","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",58
+"81","Bay St / King St W","Cyclists","Evening (17:00-22:00)",76
+"82","Bay St / King St W","Cyclists","Midday (10:00-16:00)",76
+"83","Bay St / King St W","Cyclists","Morning (08:00-12:00)",69
+"84","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",57
+"85","Bay St / King St W","Pedestrians","14 Hour",7976
+"86","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",3015
+"87","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1797
+"88","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2746
+"89","Bay St / King St W","Pedestrians","Midday (10:00-16:00)",2883
+"90","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",2258
+"91","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",2856
+"92","Bay St / King St W","Pedestrians","14 Hour",8146
+"93","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",3001
+"94","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",2102
+"95","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2556
+"96","Bay St / King St W","Pedestrians","Midday (10:00-16:00)",2890
+"97","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",2508
+"98","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",2683
+"99","Bay St / King St W","Vehicles","14 Hour",2168
+"100","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",832
+"101","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",399
+"102","Bay St / King St W","Vehicles","Evening (17:00-22:00)",882
+"103","Bay St / King St W","Vehicles","Midday (10:00-16:00)",997
+"104","Bay St / King St W","Vehicles","Morning (08:00-12:00)",634
+"105","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",552
+"106","Bay St / King St W","Vehicles","14 Hour",1689
+"107","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",685
+"108","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",250
+"109","Bay St / King St W","Vehicles","Evening (17:00-22:00)",733
+"110","Bay St / King St W","Vehicles","Midday (10:00-16:00)",788
+"111","Bay St / King St W","Vehicles","Morning (08:00-12:00)",440
+"112","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",456
+"113","Spadina Ave / King St W","Cyclists","14 Hour",345
+"114","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",102
+"115","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",112
+"116","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",97
+"117","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",121
+"118","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",132
+"119","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",81
+"120","Spadina Ave / King St W","Cyclists","14 Hour",322
+"121","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",131
+"122","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",26
+"123","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",179
+"124","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",116
+"125","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",49
+"126","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",149
+"127","Spadina Ave / King St W","Pedestrians","14 Hour",9151
+"128","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",3283
+"129","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1945
+"130","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",4128
+"131","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",3167
+"132","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2325
+"133","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3163
+"134","Spadina Ave / King St W","Pedestrians","14 Hour",8916
+"135","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",2956
+"136","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1773
+"137","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",4285
+"138","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",2994
+"139","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2240
+"140","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3351
+"141","Spadina Ave / King St W","Vehicles","14 Hour",1331
+"142","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",490
+"143","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",203
+"144","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",768
+"145","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",577
+"146","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",334
+"147","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",370
+"148","Spadina Ave / King St W","Vehicles","14 Hour",826
+"149","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",361
+"150","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",91
+"151","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",435
+"152","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",403
+"153","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",187
+"154","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",225
+"155","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",34
+"156","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",36
+"157","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",91
+"158","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",29
+"159","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",124
+"160","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",29
+"161","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",83
+"162","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",65
+"163","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",65
+"164","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",94
+"165","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",222
+"166","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",319
+"167","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",501
+"168","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",267
+"169","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",723
+"170","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",197
+"171","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",437
+"172","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",404
+"173","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",327
+"174","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",601
+"175","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",630
+"176","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",904
+"177","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",1279
+"178","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",680
+"179","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",1909
+"180","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",277
+"181","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",1449
+"182","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",627
+"183","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",1079
+"184","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",903
+"185","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Afternoon (12:00-17:00)",166
+"186","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","AM Peak Period (07:00-10:00)",168
+"187","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Evening (17:00-22:00)",523
+"188","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Morning (08:00-12:00)",149
+"189","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","PM Peak Period (16:00-19:00)",689
+"190","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",228
+"191","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",330
+"192","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",665
+"193","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",279
+"194","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",892
+"195","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",164
+"196","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",751
+"197","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",370
+"198","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",593
+"199","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",533
+"200","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Afternoon (12:00-17:00)",718
+"201","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","AM Peak Period (07:00-10:00)",1951
+"202","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Evening (17:00-22:00)",1348
+"203","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Morning (08:00-12:00)",1365
+"204","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","PM Peak Period (16:00-19:00)",2066
+"205","Queen St E / Jarvis St","Cyclists","14 Hour",292
+"206","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",62
+"207","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",152
+"208","Bay St / King St W","Cyclists","Evening (17:00-22:00)",194
+"209","Bay St / King St W","Cyclists","Morning (08:00-12:00)",121
+"210","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",255
+"211","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",54
+"212","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",137
+"213","Bay St / King St W","Cyclists","Evening (17:00-22:00)",124
+"214","Bay St / King St W","Cyclists","Morning (08:00-12:00)",110
+"215","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",179
+"216","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",1246
+"217","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1979
+"218","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2289
+"219","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",1630
+"220","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3535
+"221","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",1158
+"222","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",2331
+"223","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2125
+"224","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",1918
+"225","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3282
+"226","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",160
+"227","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",460
+"228","Bay St / King St W","Vehicles","Evening (17:00-22:00)",394
+"229","Bay St / King St W","Vehicles","Morning (08:00-12:00)",352
+"230","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",554
+"231","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",153
+"232","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",246
+"233","Bay St / King St W","Vehicles","Evening (17:00-22:00)",283
+"234","Bay St / King St W","Vehicles","Morning (08:00-12:00)",186
+"235","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",435
+"236","Queen St E / Jarvis St","Cyclists","24 Hour",371
+"237","Spadina Ave / King St W","Cyclists","14 Hour",939
+"238","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",273
+"239","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",323
+"240","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",281
+"241","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",305
+"242","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",356
+"243","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",219
+"244","Spadina Ave / King St W","Cyclists","14 Hour",940
+"245","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",349
+"246","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",81
+"247","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",559
+"248","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",295
+"249","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",138
+"250","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",457
+"251","Spadina Ave / King St W","Pedestrians","14 Hour",10263
+"252","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",4227
+"253","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1741
+"254","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",4621
+"255","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",4194
+"256","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2383
+"257","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3393
+"258","Spadina Ave / King St W","Pedestrians","14 Hour",10100
+"259","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",3838
+"260","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1549
+"261","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",5093
+"262","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",3837
+"263","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2193
+"264","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3677
+"265","Spadina Ave / King St W","Vehicles","14 Hour",1352
+"266","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",513
+"267","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",225
+"268","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",719
+"269","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",585
+"270","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",348
+"271","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",365
+"272","Spadina Ave / King St W","Vehicles","14 Hour",961
+"273","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",417
+"274","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",100
+"275","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",460
+"276","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",460
+"277","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",225
+"278","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",289
+"279","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",129
+"280","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",30
+"281","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",139
+"282","Queen St E / Jarvis St","Cyclists","Midday (10:00-16:00)",125
+"283","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",52
+"284","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",115
+"285","Queen St E / Jarvis St","Cyclists","14 Hour",233
+"286","Queen St E / Jarvis St","Cyclists","24 Hour",276
+"287","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",98
+"288","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",56
+"289","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",57
+"290","Queen St E / Jarvis St","Cyclists","Midday (10:00-16:00)",112
+"291","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",68
+"292","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",47
+"293","Queen St E / Jarvis St","Pedestrians","14 Hour",2198
+"294","Queen St E / Jarvis St","Pedestrians","24 Hour",2616
+"295","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",932
+"296","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",329
+"297","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",844
+"298","Queen St E / Jarvis St","Pedestrians","Midday (10:00-16:00)",979
+"299","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",544
+"300","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",718
+"301","Queen St E / Jarvis St","Pedestrians","14 Hour",2218
+"302","Queen St E / Jarvis St","Pedestrians","24 Hour",2541
+"303","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",863
+"304","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",473
+"305","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",652
+"306","Queen St E / Jarvis St","Pedestrians","Midday (10:00-16:00)",976
+"307","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",676
+"308","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",599
+"309","Queen St E / Jarvis St","Vehicles","14 Hour",5040
+"310","Queen St E / Jarvis St","Vehicles","24 Hour",6730
+"311","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",2042
+"312","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",771
+"313","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",1988
+"314","Queen St E / Jarvis St","Vehicles","Midday (10:00-16:00)",2265
+"315","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",1213
+"316","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",1483
+"317","Queen St E / Jarvis St","Vehicles","14 Hour",5232
+"318","Queen St E / Jarvis St","Vehicles","24 Hour",6427
+"319","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",1530
+"320","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",1668
+"321","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",1539
+"322","Queen St E / Jarvis St","Vehicles","Midday (10:00-16:00)",1926
+"323","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",1952
+"324","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",1136
+"325","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","14 Hour",977
+"326","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","24 Hour",1108
+"327","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Afternoon (12:00-17:00)",281
+"328","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","AM Peak Period (07:00-10:00)",156
+"329","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Evening (17:00-22:00)",536
+"330","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Midday (10:00-16:00)",222
+"331","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Morning (08:00-12:00)",204
+"332","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","PM Peak Period (16:00-19:00)",518
+"333","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","14 Hour",2372
+"334","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","24 Hour",2760
+"335","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",792
+"336","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",408
+"337","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",1192
+"338","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Midday (10:00-16:00)",792
+"339","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",529
+"340","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",965
+"341","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","14 Hour",2402
+"342","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","24 Hour",2633
+"343","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",771
+"344","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",823
+"345","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",680
+"346","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Midday (10:00-16:00)",803
+"347","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",862
+"348","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",610
+"349","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","14 Hour",13021
+"350","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","24 Hour",17630
+"351","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Afternoon (12:00-17:00)",5298
+"352","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","AM Peak Period (07:00-10:00)",2221
+"353","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Evening (17:00-22:00)",5370
+"354","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Midday (10:00-16:00)",5606
+"355","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Morning (08:00-12:00)",3151
+"356","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","PM Peak Period (16:00-19:00)",3803
+"357","Bay St / King St W","Cyclists","14 Hour",216
+"358","Bay St / King St W","Cyclists","24 Hour",251
+"359","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",89
+"360","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",34
+"361","Bay St / King St W","Cyclists","Evening (17:00-22:00)",72
+"362","Bay St / King St W","Cyclists","Midday (10:00-16:00)",103
+"363","Bay St / King St W","Cyclists","Morning (08:00-12:00)",59
+"364","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",59
+"365","Bay St / King St W","Cyclists","14 Hour",152
+"366","Bay St / King St W","Cyclists","24 Hour",182
+"367","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",57
+"368","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",36
+"369","Bay St / King St W","Cyclists","Evening (17:00-22:00)",39
+"370","Bay St / King St W","Cyclists","Midday (10:00-16:00)",74
+"371","Bay St / King St W","Cyclists","Morning (08:00-12:00)",51
+"372","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",27
+"373","Bay St / King St W","Pedestrians","14 Hour",9553
+"374","Bay St / King St W","Pedestrians","24 Hour",10494
+"375","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",3692
+"376","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",2278
+"377","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2929
+"378","Bay St / King St W","Pedestrians","Midday (10:00-16:00)",3775
+"379","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",2812
+"380","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3010
+"381","Bay St / King St W","Pedestrians","14 Hour",9454
+"382","Bay St / King St W","Pedestrians","24 Hour",10091
+"383","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",3493
+"384","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",2484
+"385","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2714
+"386","Bay St / King St W","Pedestrians","Midday (10:00-16:00)",3553
+"387","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",2939
+"388","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",2946
+"389","Bay St / King St W","Vehicles","14 Hour",5549
+"390","Bay St / King St W","Vehicles","24 Hour",7557
+"391","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",1989
+"392","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",1176
+"393","Bay St / King St W","Vehicles","Evening (17:00-22:00)",2209
+"394","Bay St / King St W","Vehicles","Midday (10:00-16:00)",2226
+"395","Bay St / King St W","Vehicles","Morning (08:00-12:00)",1594
+"396","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",1542
+"397","Bay St / King St W","Vehicles","14 Hour",5093
+"398","Bay St / King St W","Vehicles","24 Hour",6773
+"399","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",1878
+"400","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",1127
+"401","Bay St / King St W","Vehicles","Evening (17:00-22:00)",1838
+"402","Bay St / King St W","Vehicles","Midday (10:00-16:00)",2148
+"403","Bay St / King St W","Vehicles","Morning (08:00-12:00)",1525
+"404","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",1316
+"405","Spadina Ave / King St W","Cyclists","14 Hour",225
+"406","Spadina Ave / King St W","Cyclists","24 Hour",267
+"407","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",91
+"408","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",49
+"409","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",54
+"410","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",118
+"411","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",80
+"412","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",45
+"413","Spadina Ave / King St W","Cyclists","14 Hour",185
+"414","Spadina Ave / King St W","Cyclists","24 Hour",249
+"415","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",106
+"416","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",16
+"417","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",69
+"418","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",103
+"419","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",34
+"420","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",56
+"421","Spadina Ave / King St W","Pedestrians","14 Hour",9191
+"422","Spadina Ave / King St W","Pedestrians","24 Hour",10975
+"423","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",3354
+"424","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1986
+"425","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",3837
+"426","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",3403
+"427","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2520
+"428","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",2999
+"429","Spadina Ave / King St W","Pedestrians","14 Hour",9644
+"430","Spadina Ave / King St W","Pedestrians","24 Hour",11378
+"431","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",3377
+"432","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",2158
+"433","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",4032
+"434","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",3446
+"435","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2790
+"436","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3185
+"437","Spadina Ave / King St W","Vehicles","14 Hour",4733
+"438","Spadina Ave / King St W","Vehicles","24 Hour",7685
+"439","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",1603
+"440","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",1178
+"441","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",1902
+"442","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",1949
+"443","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",1523
+"444","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",1011
+"445","Spadina Ave / King St W","Vehicles","14 Hour",4481
+"446","Spadina Ave / King St W","Vehicles","24 Hour",7046
+"447","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",1774
+"448","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",793
+"449","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",1896
+"450","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",1937
+"451","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",1187
+"452","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",1266
+"453","Queen St E / Jarvis St","Cyclists","14 Hour",172
+"454","Queen St E / Jarvis St","Cyclists","24 Hour",215
+"455","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",80
+"456","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",23
+"457","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",70
+"458","Queen St E / Jarvis St","Cyclists","Midday (10:00-16:00)",86
+"459","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",39
+"460","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",50
+"461","Queen St E / Jarvis St","Cyclists","14 Hour",190
+"462","Queen St E / Jarvis St","Cyclists","24 Hour",220
+"463","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",78
+"464","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",40
+"465","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",47
+"466","Queen St E / Jarvis St","Cyclists","Midday (10:00-16:00)",91
+"467","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",59
+"468","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",43
+"469","Queen St E / Jarvis St","Pedestrians","14 Hour",2167
+"470","Queen St E / Jarvis St","Pedestrians","24 Hour",2549
+"471","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",920
+"472","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",361
+"473","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",754
+"474","Queen St E / Jarvis St","Pedestrians","Midday (10:00-16:00)",993
+"475","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",573
+"476","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",669
+"477","Queen St E / Jarvis St","Pedestrians","14 Hour",2237
+"478","Queen St E / Jarvis St","Pedestrians","24 Hour",2626
+"479","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",899
+"480","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",489
+"481","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",660
+"482","Queen St E / Jarvis St","Pedestrians","Midday (10:00-16:00)",989
+"483","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",686
+"484","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",608
+"485","Queen St E / Jarvis St","Vehicles","14 Hour",5245
+"486","Queen St E / Jarvis St","Vehicles","24 Hour",7204
+"487","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",2149
+"488","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",816
+"489","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",2221
+"490","Queen St E / Jarvis St","Vehicles","Midday (10:00-16:00)",2262
+"491","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",1249
+"492","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",1635
+"493","Queen St E / Jarvis St","Vehicles","14 Hour",5316
+"494","Queen St E / Jarvis St","Vehicles","24 Hour",6663
+"495","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",1538
+"496","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",1751
+"497","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",1587
+"498","Queen St E / Jarvis St","Vehicles","Midday (10:00-16:00)",1961
+"499","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",2021
+"500","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",1055
+"501","Bay St / King St W","Cyclists","14 Hour",296
+"502","Bay St / King St W","Cyclists","24 Hour",334
+"503","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",107
+"504","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",73
+"505","Bay St / King St W","Cyclists","Evening (17:00-22:00)",94
+"506","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","14 Hour",743
+"507","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","24 Hour",839
+"508","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Afternoon (12:00-17:00)",228
+"509","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","AM Peak Period (07:00-10:00)",131
+"510","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Evening (17:00-22:00)",390
+"511","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Midday (10:00-16:00)",181
+"512","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Morning (08:00-12:00)",161
+"513","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","PM Peak Period (16:00-19:00)",372
+"514","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","14 Hour",2582
+"515","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","24 Hour",2971
+"516","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",935
+"517","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",466
+"518","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",1116
+"519","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Midday (10:00-16:00)",990
+"520","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",617
+"521","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",906
+"522","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","14 Hour",2679
+"523","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","24 Hour",2940
+"524","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",936
+"525","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",890
+"526","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",681
+"527","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Midday (10:00-16:00)",989
+"528","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",979
+"529","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",642
+"530","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","14 Hour",13719
+"531","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","24 Hour",18144
+"532","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Afternoon (12:00-17:00)",5504
+"533","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","AM Peak Period (07:00-10:00)",2322
+"534","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Evening (17:00-22:00)",5860
+"535","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Midday (10:00-16:00)",5811
+"536","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Morning (08:00-12:00)",3303
+"537","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","PM Peak Period (16:00-19:00)",4104
+"538","Bay St / King St W","Cyclists","14 Hour",361
+"539","Bay St / King St W","Cyclists","24 Hour",415
+"540","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",132
+"541","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",76
+"542","Bay St / King St W","Cyclists","Evening (17:00-22:00)",134
+"543","Bay St / King St W","Cyclists","Midday (10:00-16:00)",134
+"544","Bay St / King St W","Cyclists","Morning (08:00-12:00)",102
+"545","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",123
+"546","Bay St / King St W","Cyclists","Midday (10:00-16:00)",123
+"547","Bay St / King St W","Cyclists","Morning (08:00-12:00)",101
+"548","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",83
+"549","Bay St / King St W","Pedestrians","14 Hour",8953
+"550","Bay St / King St W","Pedestrians","24 Hour",9874
+"551","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",3467
+"552","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1950
+"553","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",3078
+"554","Bay St / King St W","Pedestrians","Midday (10:00-16:00)",3435
+"555","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",2530
+"556","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3123
+"557","Bay St / King St W","Pedestrians","14 Hour",9224
+"558","Bay St / King St W","Pedestrians","24 Hour",9994
+"559","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",3561
+"560","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",2306
+"561","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2789
+"562","Bay St / King St W","Pedestrians","Midday (10:00-16:00)",3435
+"563","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",2793
+"564","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",2969
+"565","Bay St / King St W","Vehicles","14 Hour",1952
+"566","Bay St / King St W","Vehicles","24 Hour",3266
+"567","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",727
+"568","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",333
+"569","Bay St / King St W","Vehicles","Evening (17:00-22:00)",899
+"570","Bay St / King St W","Vehicles","Midday (10:00-16:00)",873
+"571","Bay St / King St W","Vehicles","Morning (08:00-12:00)",534
+"572","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",504
+"573","Bay St / King St W","Vehicles","14 Hour",1587
+"574","Bay St / King St W","Vehicles","24 Hour",2834
+"575","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",651
+"576","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",215
+"577","Bay St / King St W","Vehicles","Evening (17:00-22:00)",726
+"578","Bay St / King St W","Vehicles","Midday (10:00-16:00)",734
+"579","Bay St / King St W","Vehicles","Morning (08:00-12:00)",382
+"580","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",442
+"581","Spadina Ave / King St W","Cyclists","14 Hour",406
+"582","Spadina Ave / King St W","Cyclists","24 Hour",470
+"583","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",126
+"584","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",131
+"585","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",119
+"586","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",156
+"587","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",165
+"588","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",88
+"589","Spadina Ave / King St W","Cyclists","14 Hour",441
+"590","Spadina Ave / King St W","Cyclists","24 Hour",533
+"591","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",182
+"592","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",37
+"593","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",239
+"594","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",164
+"595","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",65
+"596","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",199
+"597","Spadina Ave / King St W","Pedestrians","14 Hour",9862
+"598","Spadina Ave / King St W","Pedestrians","24 Hour",12291
+"599","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",3977
+"600","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1864
+"601","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",4124
+"602","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",3925
+"603","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2461
+"604","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3268
+"605","Spadina Ave / King St W","Pedestrians","14 Hour",9479
+"606","Spadina Ave / King St W","Pedestrians","24 Hour",11443
+"607","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",3509
+"608","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1731
+"609","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",4259
+"610","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",3647
+"611","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2354
+"612","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3317
+"613","Spadina Ave / King St W","Vehicles","14 Hour",1230
+"614","Spadina Ave / King St W","Vehicles","24 Hour",3466
+"615","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",448
+"616","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",172
+"617","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",864
+"618","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",512
+"619","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",274
+"620","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",348
+"621","Spadina Ave / King St W","Vehicles","14 Hour",794
+"622","Spadina Ave / King St W","Vehicles","24 Hour",2315
+"623","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",330
+"624","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",87
+"625","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",439
+"626","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",394
+"627","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",182
+"628","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",202
+"629","Queen St E / Jarvis St","Cyclists","14 Hour",87
+"630","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",39
+"631","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",6
+"632","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",37
+"633","Queen St E / Jarvis St","Cyclists","Midday (10:00-16:00)",45
+"634","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",18
+"635","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",28
+"636","Queen St E / Jarvis St","Cyclists","14 Hour",107
+"637","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",38
+"638","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",18
+"639","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",31
+"640","Queen St E / Jarvis St","Cyclists","Midday (10:00-16:00)",52
+"641","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",34
+"642","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",27
+"643","Queen St E / Jarvis St","Pedestrians","14 Hour",2183
+"644","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",963
+"645","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",363
+"646","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",747
+"647","Queen St E / Jarvis St","Pedestrians","Midday (10:00-16:00)",1018
+"648","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",563
+"649","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",666
+"650","Queen St E / Jarvis St","Pedestrians","14 Hour",2251
+"651","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",941
+"652","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",458
+"653","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",673
+"654","Queen St E / Jarvis St","Pedestrians","Midday (10:00-16:00)",1024
+"655","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",651
+"656","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",631
+"657","Queen St E / Jarvis St","Vehicles","14 Hour",5309
+"658","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",2195
+"659","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",859
+"660","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",2143
+"661","Queen St E / Jarvis St","Vehicles","Midday (10:00-16:00)",2306
+"662","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",1263
+"663","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",1598
+"664","Queen St E / Jarvis St","Vehicles","14 Hour",4875
+"665","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",1385
+"666","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",1686
+"667","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",1377
+"668","Queen St E / Jarvis St","Vehicles","Midday (10:00-16:00)",1727
+"669","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",1925
+"670","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",987
+"671","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","14 Hour",265
+"672","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Afternoon (12:00-17:00)",91
+"673","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","AM Peak Period (07:00-10:00)",38
+"674","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Evening (17:00-22:00)",133
+"675","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Midday (10:00-16:00)",71
+"676","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Morning (08:00-12:00)",49
+"677","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","PM Peak Period (16:00-19:00)",130
+"678","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","14 Hour",2340
+"679","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",838
+"680","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",433
+"681","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",1015
+"682","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Midday (10:00-16:00)",883
+"683","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",566
+"684","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",837
+"685","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","14 Hour",2471
+"686","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",832
+"687","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",824
+"688","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",627
+"689","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Midday (10:00-16:00)",888
+"690","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",899
+"691","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",622
+"692","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","14 Hour",11611
+"693","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Afternoon (12:00-17:00)",4578
+"694","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","AM Peak Period (07:00-10:00)",2023
+"695","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Evening (17:00-22:00)",4945
+"696","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Midday (10:00-16:00)",4919
+"697","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Morning (08:00-12:00)",2840
+"698","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","PM Peak Period (16:00-19:00)",3405
+"699","Bay St / King St W","Pedestrians","Midday (10:00-16:00)",3025
+"700","Bay St / King St W","Cyclists","14 Hour",171
+"701","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",67
+"702","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",25
+"703","Bay St / King St W","Cyclists","Evening (17:00-22:00)",64
+"704","Bay St / King St W","Cyclists","Midday (10:00-16:00)",69
+"705","Bay St / King St W","Cyclists","Morning (08:00-12:00)",42
+"706","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",59
+"707","Bay St / King St W","Cyclists","14 Hour",135
+"708","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",62
+"709","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",26
+"710","Bay St / King St W","Cyclists","Evening (17:00-22:00)",36
+"711","Bay St / King St W","Cyclists","Midday (10:00-16:00)",67
+"712","Bay St / King St W","Cyclists","Morning (08:00-12:00)",40
+"713","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",32
+"714","Bay St / King St W","Pedestrians","14 Hour",7621
+"715","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",3129
+"716","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1550
+"717","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2552
+"718","Bay St / King St W","Pedestrians","Midday (10:00-16:00)",2937
+"719","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",1990
+"720","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",2763
+"721","Bay St / King St W","Pedestrians","14 Hour",7963
+"722","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",3196
+"723","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1889
+"724","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2328
+"725","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",2352
+"726","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",2659
+"727","Bay St / King St W","Vehicles","14 Hour",2457
+"728","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",963
+"729","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",382
+"730","Bay St / King St W","Vehicles","Evening (17:00-22:00)",1145
+"731","Bay St / King St W","Vehicles","Midday (10:00-16:00)",1133
+"732","Bay St / King St W","Vehicles","Morning (08:00-12:00)",646
+"733","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",654
+"734","Bay St / King St W","Vehicles","14 Hour",1461
+"735","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",568
+"736","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",236
+"737","Bay St / King St W","Vehicles","Evening (17:00-22:00)",626
+"738","Bay St / King St W","Vehicles","Midday (10:00-16:00)",664
+"739","Bay St / King St W","Vehicles","Morning (08:00-12:00)",395
+"740","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",385
+"741","Spadina Ave / King St W","Cyclists","14 Hour",204
+"742","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",72
+"743","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",53
+"744","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",57
+"745","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",91
+"746","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",73
+"747","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",42
+"748","Spadina Ave / King St W","Cyclists","14 Hour",215
+"749","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",99
+"750","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",17
+"751","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",102
+"752","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",96
+"753","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",34
+"754","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",82
+"755","Spadina Ave / King St W","Pedestrians","14 Hour",9718
+"756","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",3748
+"757","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1951
+"758","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",4134
+"759","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",3654
+"760","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2441
+"761","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3307
+"762","Spadina Ave / King St W","Pedestrians","14 Hour",9078
+"763","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",3239
+"764","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1745
+"765","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",4146
+"766","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",3301
+"767","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2305
+"768","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3240
+"769","Spadina Ave / King St W","Vehicles","14 Hour",1324
+"770","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",532
+"771","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",180
+"772","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",751
+"773","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",628
+"774","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",324
+"775","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",339
+"776","Spadina Ave / King St W","Vehicles","14 Hour",885
+"777","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",371
+"778","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",95
+"779","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",511
+"780","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",408
+"781","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",182
+"782","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",261
+"783","Queen St E / Jarvis St","Cyclists","14 Hour",78
+"784","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",33
+"785","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",9
+"786","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",37
+"787","Queen St E / Jarvis St","Cyclists","Midday (10:00-16:00)",34
+"788","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",17
+"789","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",29
+"790","Queen St E / Jarvis St","Cyclists","14 Hour",89
+"791","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",38
+"792","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",15
+"793","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",21
+"794","Queen St E / Jarvis St","Cyclists","Midday (10:00-16:00)",46
+"795","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",27
+"796","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",20
+"797","Queen St E / Jarvis St","Pedestrians","14 Hour",2037
+"798","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",895
+"799","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",346
+"800","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",681
+"801","Queen St E / Jarvis St","Pedestrians","Midday (10:00-16:00)",950
+"802","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",564
+"803","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",609
+"804","Queen St E / Jarvis St","Pedestrians","14 Hour",2083
+"805","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",854
+"806","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",484
+"807","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",584
+"808","Queen St E / Jarvis St","Pedestrians","Midday (10:00-16:00)",931
+"809","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",657
+"810","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",535
+"811","Queen St E / Jarvis St","Vehicles","14 Hour",4849
+"812","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",1988
+"813","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",765
+"814","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",1884
+"815","Queen St E / Jarvis St","Vehicles","Midday (10:00-16:00)",2125
+"816","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",1172
+"817","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",1515
+"818","Queen St E / Jarvis St","Vehicles","14 Hour",4638
+"819","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",1326
+"820","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",1629
+"821","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",1252
+"822","Queen St E / Jarvis St","Vehicles","Midday (10:00-16:00)",1659
+"823","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",1841
+"824","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",906
+"825","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","14 Hour",220
+"826","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Afternoon (12:00-17:00)",68
+"827","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","AM Peak Period (07:00-10:00)",36
+"828","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Evening (17:00-22:00)",122
+"829","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Midday (10:00-16:00)",56
+"830","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Morning (08:00-12:00)",46
+"831","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","PM Peak Period (16:00-19:00)",108
+"832","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","14 Hour",2307
+"833","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",762
+"834","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",440
+"835","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",1070
+"836","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Midday (10:00-16:00)",811
+"837","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",567
+"838","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",875
+"839","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","14 Hour",2409
+"840","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",806
+"841","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",845
+"842","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",593
+"843","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Midday (10:00-16:00)",844
+"844","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",928
+"845","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",586
+"846","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","14 Hour",13385
+"847","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Afternoon (12:00-17:00)",5419
+"848","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","AM Peak Period (07:00-10:00)",2388
+"849","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Evening (17:00-22:00)",5374
+"850","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Midday (10:00-16:00)",5728
+"851","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Morning (08:00-12:00)",3308
+"852","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","PM Peak Period (16:00-19:00)",3868
+"853","Bay St / King St W","Cyclists","14 Hour",169
+"854","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",67
+"855","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",33
+"856","Bay St / King St W","Cyclists","Evening (17:00-22:00)",58
+"857","Bay St / King St W","Cyclists","Midday (10:00-16:00)",74
+"858","Bay St / King St W","Cyclists","Morning (08:00-12:00)",49
+"859","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",48
+"860","Bay St / King St W","Cyclists","14 Hour",135
+"861","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",52
+"862","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",29
+"863","Bay St / King St W","Cyclists","Evening (17:00-22:00)",41
+"864","Bay St / King St W","Cyclists","Midday (10:00-16:00)",62
+"865","Bay St / King St W","Cyclists","Morning (08:00-12:00)",45
+"866","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",34
+"867","Bay St / King St W","Pedestrians","14 Hour",6854
+"868","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",2714
+"869","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1404
+"870","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2419
+"871","Bay St / King St W","Pedestrians","Midday (10:00-16:00)",2550
+"872","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",1803
+"873","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",2573
+"874","Bay St / King St W","Pedestrians","14 Hour",7133
+"875","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",2665
+"876","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1793
+"877","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2199
+"878","Bay St / King St W","Pedestrians","Midday (10:00-16:00)",2579
+"879","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",2155
+"880","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",2391
+"881","Bay St / King St W","Vehicles","14 Hour",1918
+"882","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",734
+"883","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",340
+"884","Bay St / King St W","Vehicles","Evening (17:00-22:00)",810
+"885","Bay St / King St W","Vehicles","Midday (10:00-16:00)",889
+"886","Bay St / King St W","Vehicles","Morning (08:00-12:00)",547
+"887","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",465
+"888","Bay St / King St W","Vehicles","14 Hour",1554
+"889","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",646
+"890","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",220
+"891","Bay St / King St W","Vehicles","Evening (17:00-22:00)",649
+"892","Bay St / King St W","Vehicles","Midday (10:00-16:00)",724
+"893","Bay St / King St W","Vehicles","Morning (08:00-12:00)",388
+"894","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",427
+"895","Spadina Ave / King St W","Cyclists","14 Hour",189
+"896","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",63
+"897","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",53
+"898","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",54
+"899","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",77
+"900","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",72
+"901","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",39
+"902","Spadina Ave / King St W","Cyclists","14 Hour",191
+"903","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",86
+"904","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",17
+"905","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",94
+"906","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",81
+"907","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",33
+"908","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",80
+"909","Spadina Ave / King St W","Pedestrians","14 Hour",8964
+"910","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",3416
+"911","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1884
+"912","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",3841
+"913","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",3272
+"914","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2294
+"915","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3065
+"916","Spadina Ave / King St W","Pedestrians","14 Hour",8235
+"917","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",2870
+"918","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1695
+"919","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",3799
+"920","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",2882
+"921","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2126
+"922","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",2911
+"923","Spadina Ave / King St W","Vehicles","14 Hour",1215
+"924","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",425
+"925","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",188
+"926","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",717
+"927","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",544
+"928","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",337
+"929","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",309
+"930","Spadina Ave / King St W","Vehicles","14 Hour",748
+"931","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",305
+"932","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",75
+"933","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",421
+"934","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",370
+"935","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",180
+"936","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",197
+"937","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",193
+"938","Bay St / King St W","Cyclists","Evening (17:00-22:00)",140
+"939","Bay St / King St W","Cyclists","Morning (08:00-12:00)",162
+"940","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",192
+"941","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",1170
+"942","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",2383
+"943","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2437
+"944","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",1975
+"945","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3607
+"946","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",1151
+"947","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",2814
+"948","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2430
+"949","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",2298
+"950","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",43
+"951","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",35
+"952","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",106
+"953","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",25
+"954","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",148
+"955","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",33
+"956","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",99
+"957","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",66
+"958","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",76
+"959","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",99
+"960","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",234
+"961","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",347
+"962","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",516
+"963","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",295
+"964","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",750
+"965","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",226
+"966","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",496
+"967","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",438
+"968","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",384
+"969","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",664
+"970","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",532
+"971","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",779
+"972","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",1041
+"973","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",556
+"974","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",1573
+"975","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",333
+"976","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",1545
+"977","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",662
+"978","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",1143
+"979","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",995
+"980","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Afternoon (12:00-17:00)",215
+"981","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","AM Peak Period (07:00-10:00)",247
+"982","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Evening (17:00-22:00)",674
+"983","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Morning (08:00-12:00)",216
+"984","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","PM Peak Period (16:00-19:00)",889
+"985","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",240
+"986","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",376
+"987","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",728
+"988","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",304
+"989","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",968
+"990","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",179
+"991","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",835
+"992","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",421
+"993","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",648
+"994","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",600
+"995","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Afternoon (12:00-17:00)",1149
+"996","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","AM Peak Period (07:00-10:00)",2191
+"997","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Evening (17:00-22:00)",2259
+"998","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Morning (08:00-12:00)",1559
+"999","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","PM Peak Period (16:00-19:00)",3408
+"1000","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",89
+"1001","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",175
+"1002","Bay St / King St W","Cyclists","Evening (17:00-22:00)",215
+"1003","Bay St / King St W","Cyclists","Morning (08:00-12:00)",149
+"1004","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",304
+"1005","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",52
+"1006","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3581
+"1007","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",180
+"1008","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",425
+"1009","Bay St / King St W","Vehicles","Evening (17:00-22:00)",391
+"1010","Bay St / King St W","Vehicles","Morning (08:00-12:00)",310
+"1011","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",571
+"1012","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",124
+"1013","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",252
+"1014","Bay St / King St W","Vehicles","Evening (17:00-22:00)",293
+"1015","Bay St / King St W","Vehicles","Morning (08:00-12:00)",191
+"1016","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",417
+"1017","Spadina Ave / King St W","Cyclists","14 Hour",990
+"1018","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",266
+"1019","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",369
+"1020","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",297
+"1021","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",302
+"1022","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",416
+"1023","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",228
+"1024","Spadina Ave / King St W","Cyclists","14 Hour",1083
+"1025","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",393
+"1026","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",108
+"1027","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",617
+"1028","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",351
+"1029","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",170
+"1030","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",509
+"1031","Spadina Ave / King St W","Pedestrians","14 Hour",10563
+"1032","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",4272
+"1033","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1938
+"1034","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",5153
+"1035","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",4072
+"1036","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2459
+"1037","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3509
+"1038","Spadina Ave / King St W","Pedestrians","14 Hour",10155
+"1039","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",3752
+"1040","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1855
+"1041","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",5331
+"1042","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",3641
+"1043","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2423
+"1044","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3608
+"1045","Spadina Ave / King St W","Vehicles","14 Hour",1399
+"1046","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",522
+"1047","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",219
+"1048","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",865
+"1049","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",603
+"1050","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",354
+"1051","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",375
+"1052","Spadina Ave / King St W","Vehicles","14 Hour",1004
+"1053","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",446
+"1054","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",103
+"1055","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",541
+"1056","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",506
+"1057","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",219
+"1058","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",272
+"1059","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",42
+"1060","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",34
+"1061","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",102
+"1062","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",25
+"1063","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",144
+"1064","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",26
+"1065","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",102
+"1066","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",63
+"1067","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",73
+"1068","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",89
+"1069","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",243
+"1070","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",414
+"1071","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",532
+"1072","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",348
+"1073","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",774
+"1074","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",205
+"1075","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",462
+"1076","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",479
+"1077","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",363
+"1078","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",684
+"1079","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",493
+"1080","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",728
+"1081","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",1006
+"1082","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",520
+"1083","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",1499
+"1084","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",303
+"1085","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",1715
+"1086","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",685
+"1087","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",1282
+"1088","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",987
+"1089","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Afternoon (12:00-17:00)",214
+"1090","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","AM Peak Period (07:00-10:00)",249
+"1091","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Evening (17:00-22:00)",706
+"1092","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Morning (08:00-12:00)",210
+"1093","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","PM Peak Period (16:00-19:00)",920
+"1094","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",223
+"1095","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",386
+"1096","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",701
+"1097","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",315
+"1098","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",924
+"1099","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",176
+"1100","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",807
+"1101","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",437
+"1102","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",623
+"1103","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",613
+"1104","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Afternoon (12:00-17:00)",1298
+"1105","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","AM Peak Period (07:00-10:00)",2365
+"1106","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Evening (17:00-22:00)",2603
+"1107","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Morning (08:00-12:00)",1652
+"1108","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","PM Peak Period (16:00-19:00)",3901
+"1109","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",61
+"1110","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",167
+"1111","Bay St / King St W","Cyclists","Evening (17:00-22:00)",181
+"1112","Bay St / King St W","Cyclists","Morning (08:00-12:00)",136
+"1113","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",242
+"1114","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",36
+"1115","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",140
+"1116","Bay St / King St W","Cyclists","Evening (17:00-22:00)",99
+"1117","Bay St / King St W","Cyclists","Morning (08:00-12:00)",121
+"1118","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",134
+"1119","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",1248
+"1120","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",2788
+"1121","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2836
+"1122","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",2322
+"1123","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",4084
+"1124","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",1229
+"1125","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",2902
+"1126","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2874
+"1127","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",2424
+"1128","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",4103
+"1129","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",167
+"1130","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",424
+"1131","Bay St / King St W","Vehicles","Evening (17:00-22:00)",389
+"1132","Bay St / King St W","Vehicles","Morning (08:00-12:00)",313
+"1133","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",556
+"1134","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",132
+"1135","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",226
+"1136","Bay St / King St W","Vehicles","Evening (17:00-22:00)",304
+"1137","Bay St / King St W","Vehicles","Morning (08:00-12:00)",172
+"1138","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",435
+"1139","Spadina Ave / King St W","Cyclists","14 Hour",945
+"1140","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",256
+"1141","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",349
+"1142","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",268
+"1143","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",306
+"1144","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",393
+"1145","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",203
+"1146","Spadina Ave / King St W","Cyclists","14 Hour",882
+"1147","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",324
+"1148","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",91
+"1149","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",487
+"1150","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",281
+"1151","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",154
+"1152","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",419
+"1153","Spadina Ave / King St W","Pedestrians","14 Hour",11003
+"1154","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",4515
+"1155","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",233
+"1156","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1953
+"1157","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",4972
+"1158","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",4199
+"1159","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2541
+"1160","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3803
+"1161","Spadina Ave / King St W","Pedestrians","14 Hour",10771
+"1162","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",4076
+"1163","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1805
+"1164","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",5250
+"1165","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",4034
+"1166","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2472
+"1167","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3804
+"1168","Spadina Ave / King St W","Vehicles","14 Hour",1436
+"1169","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",563
+"1170","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",210
+"1171","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",757
+"1172","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",691
+"1173","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",381
+"1174","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",353
+"1175","Spadina Ave / King St W","Vehicles","14 Hour",1054
+"1176","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",491
+"1177","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",108
+"1178","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",521
+"1179","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",537
+"1180","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",296
+"1181","Queen St E / Jarvis St","Cyclists","14 Hour",161
+"1182","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",72
+"1183","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",17
+"1184","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",67
+"1185","Queen St E / Jarvis St","Cyclists","Midday (10:00-16:00)",71
+"1186","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",29
+"1187","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",61
+"1188","Queen St E / Jarvis St","Cyclists","14 Hour",151
+"1189","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",58
+"1190","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",35
+"1191","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",38
+"1192","Queen St E / Jarvis St","Cyclists","Midday (10:00-16:00)",73
+"1193","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",50
+"1194","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",29
+"1195","Queen St E / Jarvis St","Pedestrians","14 Hour",2114
+"1196","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",899
+"1197","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",358
+"1198","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",719
+"1199","Queen St E / Jarvis St","Pedestrians","Midday (10:00-16:00)",977
+"1200","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",568
+"1201","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",641
+"1202","Queen St E / Jarvis St","Pedestrians","14 Hour",2160
+"1203","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",866
+"1204","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",476
+"1205","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",618
+"1206","Queen St E / Jarvis St","Pedestrians","Midday (10:00-16:00)",973
+"1207","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",670
+"1208","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",574
+"1209","Queen St E / Jarvis St","Vehicles","14 Hour",4889
+"1210","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",2010
+"1211","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",802
+"1212","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",1887
+"1213","Queen St E / Jarvis St","Vehicles","Midday (10:00-16:00)",2148
+"1214","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",1198
+"1215","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",1481
+"1216","Queen St E / Jarvis St","Vehicles","14 Hour",4878
+"1217","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",1331
+"1218","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",1826
+"1219","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",1291
+"1220","Queen St E / Jarvis St","Vehicles","Midday (10:00-16:00)",1670
+"1221","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",1989
+"1222","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",904
+"1223","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","14 Hour",487
+"1224","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Afternoon (12:00-17:00)",138
+"1225","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","AM Peak Period (07:00-10:00)",74
+"1226","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Evening (17:00-22:00)",270
+"1227","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Midday (10:00-16:00)",105
+"1228","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Morning (08:00-12:00)",92
+"1229","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","PM Peak Period (16:00-19:00)",265
+"1230","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","14 Hour",2409
+"1231","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",808
+"1232","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",459
+"1233","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",1122
+"1234","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Midday (10:00-16:00)",841
+"1235","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",576
+"1236","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",925
+"1237","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","14 Hour",2561
+"1238","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",816
+"1239","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",913
+"1240","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",663
+"1241","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Midday (10:00-16:00)",868
+"1242","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",968
+"1243","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",636
+"1244","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","14 Hour",13999
+"1245","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Afternoon (12:00-17:00)",5638
+"1246","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","AM Peak Period (07:00-10:00)",2433
+"1247","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Evening (17:00-22:00)",5815
+"1248","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Midday (10:00-16:00)",5949
+"1249","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Morning (08:00-12:00)",3378
+"1250","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","PM Peak Period (16:00-19:00)",4143
+"1251","Bay St / King St W","Cyclists","14 Hour",241
+"1252","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",90
+"1253","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",51
+"1254","Bay St / King St W","Cyclists","Evening (17:00-22:00)",83
+"1255","Bay St / King St W","Cyclists","Midday (10:00-16:00)",94
+"1256","Bay St / King St W","Cyclists","Morning (08:00-12:00)",70
+"1257","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",79
+"1258","Bay St / King St W","Cyclists","14 Hour",210
+"1259","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",75
+"1260","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",56
+"1261","Bay St / King St W","Cyclists","Evening (17:00-22:00)",56
+"1262","Bay St / King St W","Cyclists","Midday (10:00-16:00)",85
+"1263","Bay St / King St W","Cyclists","Morning (08:00-12:00)",77
+"1264","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",53
+"1265","Bay St / King St W","Pedestrians","14 Hour",8393
+"1266","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",3257
+"1267","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1844
+"1268","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2938
+"1269","Bay St / King St W","Pedestrians","Midday (10:00-16:00)",3164
+"1270","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",2336
+"1271","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",2940
+"1272","Bay St / King St W","Pedestrians","14 Hour",8588
+"1273","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",3158
+"1274","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",2242
+"1275","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2659
+"1276","Bay St / King St W","Pedestrians","Midday (10:00-16:00)",3100
+"1277","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",2702
+"1278","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",2762
+"1279","Bay St / King St W","Vehicles","14 Hour",2327
+"1280","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",893
+"1281","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",412
+"1282","Bay St / King St W","Vehicles","Evening (17:00-22:00)",996
+"1283","Bay St / King St W","Vehicles","Midday (10:00-16:00)",1063
+"1284","Bay St / King St W","Vehicles","Morning (08:00-12:00)",656
+"1285","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",599
+"1286","Bay St / King St W","Vehicles","14 Hour",1666
+"1287","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",650
+"1288","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",246
+"1289","Bay St / King St W","Vehicles","Evening (17:00-22:00)",722
+"1290","Bay St / King St W","Vehicles","Midday (10:00-16:00)",759
+"1291","Bay St / King St W","Vehicles","Morning (08:00-12:00)",443
+"1292","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",469
+"1293","Spadina Ave / King St W","Cyclists","14 Hour",308
+"1294","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",94
+"1295","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",91
+"1296","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",87
+"1297","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",118
+"1298","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",112
+"1299","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",72
+"1300","Spadina Ave / King St W","Cyclists","14 Hour",317
+"1301","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",121
+"1302","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",29
+"1303","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",171
+"1304","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",111
+"1305","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",54
+"1306","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",142
+"1307","Spadina Ave / King St W","Pedestrians","14 Hour",9208
+"1308","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",3444
+"1309","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1858
+"1310","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",4036
+"1311","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",3349
+"1312","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2285
+"1313","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3163
+"1314","Spadina Ave / King St W","Pedestrians","14 Hour",8961
+"1315","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",3092
+"1316","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1677
+"1317","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",4239
+"1318","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",3117
+"1319","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2172
+"1320","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3341
+"1321","Spadina Ave / King St W","Vehicles","14 Hour",1368
+"1322","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",503
+"1323","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",205
+"1324","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",816
+"1325","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",590
+"1326","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",342
+"1327","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",378
+"1328","Spadina Ave / King St W","Vehicles","14 Hour",821
+"1329","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",351
+"1330","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",93
+"1331","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",444
+"1332","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",406
+"1333","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",191
+"1334","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",213
+"1335","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","AM Peak Period (07:00-10:00)",2438
+"1336","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",34
+"1337","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",37
+"1338","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",96
+"1339","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",26
+"1340","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",129
+"1341","Queen St E / Jarvis St","Cyclists","Afternoon (12:00-17:00)",29
+"1342","Queen St E / Jarvis St","Cyclists","AM Peak Period (07:00-10:00)",89
+"1343","Queen St E / Jarvis St","Cyclists","Evening (17:00-22:00)",57
+"1344","Queen St E / Jarvis St","Cyclists","Morning (08:00-12:00)",61
+"1345","Queen St E / Jarvis St","Cyclists","PM Peak Period (16:00-19:00)",85
+"1346","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",255
+"1347","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",387
+"1348","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",529
+"1349","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",327
+"1350","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",785
+"1351","Queen St E / Jarvis St","Pedestrians","Afternoon (12:00-17:00)",217
+"1352","Queen St E / Jarvis St","Pedestrians","AM Peak Period (07:00-10:00)",532
+"1353","Queen St E / Jarvis St","Pedestrians","Evening (17:00-22:00)",446
+"1354","Queen St E / Jarvis St","Pedestrians","Morning (08:00-12:00)",420
+"1355","Queen St E / Jarvis St","Pedestrians","PM Peak Period (16:00-19:00)",663
+"1356","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",538
+"1357","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",770
+"1358","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",1133
+"1359","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",553
+"1360","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",1671
+"1361","Queen St E / Jarvis St","Vehicles","Afternoon (12:00-17:00)",279
+"1362","Queen St E / Jarvis St","Vehicles","AM Peak Period (07:00-10:00)",1801
+"1363","Queen St E / Jarvis St","Vehicles","Evening (17:00-22:00)",679
+"1364","Queen St E / Jarvis St","Vehicles","Morning (08:00-12:00)",1372
+"1365","Queen St E / Jarvis St","Vehicles","PM Peak Period (16:00-19:00)",958
+"1366","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Afternoon (12:00-17:00)",199
+"1367","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","AM Peak Period (07:00-10:00)",261
+"1368","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Evening (17:00-22:00)",751
+"1369","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","Morning (08:00-12:00)",222
+"1370","Adelaide St E / Jarvis St / St. James Park Trl","Cyclists","PM Peak Period (16:00-19:00)",950
+"1371","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",222
+"1372","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",414
+"1373","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",814
+"1374","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",345
+"1375","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",1036
+"1376","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Afternoon (12:00-17:00)",185
+"1377","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","AM Peak Period (07:00-10:00)",853
+"1378","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Evening (17:00-22:00)",480
+"1379","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","Morning (08:00-12:00)",655
+"1380","Adelaide St E / Jarvis St / St. James Park Trl","Pedestrians","PM Peak Period (16:00-19:00)",665
+"1381","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Afternoon (12:00-17:00)",1263
+"1382","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Evening (17:00-22:00)",2526
+"1383","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","Morning (08:00-12:00)",1688
+"1384","Adelaide St E / Jarvis St / St. James Park Trl","Vehicles","PM Peak Period (16:00-19:00)",3788
+"1385","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",70
+"1386","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",143
+"1387","Bay St / King St W","Cyclists","Evening (17:00-22:00)",147
+"1388","Bay St / King St W","Cyclists","Morning (08:00-12:00)",109
+"1389","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",217
+"1390","Bay St / King St W","Cyclists","Afternoon (12:00-17:00)",27
+"1391","Bay St / King St W","Cyclists","AM Peak Period (07:00-10:00)",127
+"1392","Bay St / King St W","Cyclists","Evening (17:00-22:00)",111
+"1393","Bay St / King St W","Cyclists","Morning (08:00-12:00)",100
+"1394","Bay St / King St W","Cyclists","PM Peak Period (16:00-19:00)",138
+"1395","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",1156
+"1396","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",2298
+"1397","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",3086
+"1398","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",1819
+"1399","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",4241
+"1400","Bay St / King St W","Pedestrians","Afternoon (12:00-17:00)",989
+"1401","Bay St / King St W","Pedestrians","AM Peak Period (07:00-10:00)",2395
+"1402","Bay St / King St W","Pedestrians","Evening (17:00-22:00)",2830
+"1403","Bay St / King St W","Pedestrians","Morning (08:00-12:00)",1841
+"1404","Bay St / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3820
+"1405","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",171
+"1406","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",397
+"1407","Bay St / King St W","Vehicles","Evening (17:00-22:00)",376
+"1408","Bay St / King St W","Vehicles","Morning (08:00-12:00)",287
+"1409","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",546
+"1410","Bay St / King St W","Vehicles","Afternoon (12:00-17:00)",104
+"1411","Bay St / King St W","Vehicles","AM Peak Period (07:00-10:00)",206
+"1412","Bay St / King St W","Vehicles","Evening (17:00-22:00)",262
+"1413","Bay St / King St W","Vehicles","Morning (08:00-12:00)",152
+"1414","Bay St / King St W","Vehicles","PM Peak Period (16:00-19:00)",366
+"1415","Spadina Ave / King St W","Cyclists","14 Hour",911
+"1416","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",257
+"1417","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",328
+"1418","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",278
+"1419","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",289
+"1420","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",351
+"1421","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",199
+"1422","Spadina Ave / King St W","Cyclists","14 Hour",896
+"1423","Spadina Ave / King St W","Cyclists","Afternoon (12:00-17:00)",307
+"1424","Spadina Ave / King St W","Cyclists","AM Peak Period (07:00-10:00)",81
+"1425","Spadina Ave / King St W","Cyclists","Evening (17:00-22:00)",566
+"1426","Spadina Ave / King St W","Cyclists","Midday (10:00-16:00)",254
+"1427","Spadina Ave / King St W","Cyclists","Morning (08:00-12:00)",124
+"1428","Spadina Ave / King St W","Cyclists","PM Peak Period (16:00-19:00)",454
+"1429","Spadina Ave / King St W","Pedestrians","14 Hour",10621
+"1430","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",4153
+"1431","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1955
+"1432","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",4809
+"1433","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",4020
+"1434","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2521
+"1435","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3625
+"1436","Spadina Ave / King St W","Pedestrians","14 Hour",10324
+"1437","Spadina Ave / King St W","Pedestrians","Afternoon (12:00-17:00)",3631
+"1438","Spadina Ave / King St W","Pedestrians","AM Peak Period (07:00-10:00)",1786
+"1439","Spadina Ave / King St W","Pedestrians","Evening (17:00-22:00)",5100
+"1440","Spadina Ave / King St W","Pedestrians","Midday (10:00-16:00)",3713
+"1441","Spadina Ave / King St W","Pedestrians","Morning (08:00-12:00)",2411
+"1442","Spadina Ave / King St W","Pedestrians","PM Peak Period (16:00-19:00)",3740
+"1443","Spadina Ave / King St W","Vehicles","14 Hour",1297
+"1444","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",497
+"1445","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",212
+"1446","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",661
+"1447","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",580
+"1448","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",335
+"1449","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",345
+"1450","Spadina Ave / King St W","Vehicles","14 Hour",882
+"1451","Spadina Ave / King St W","Vehicles","Afternoon (12:00-17:00)",379
+"1452","Spadina Ave / King St W","Vehicles","AM Peak Period (07:00-10:00)",96
+"1453","Spadina Ave / King St W","Vehicles","Evening (17:00-22:00)",430
+"1454","Spadina Ave / King St W","Vehicles","Midday (10:00-16:00)",436
+"1455","Spadina Ave / King St W","Vehicles","Morning (08:00-12:00)",207
+"1456","Spadina Ave / King St W","Vehicles","PM Peak Period (16:00-19:00)",255
