@@ -23,3 +23,5 @@ data$period_name <- as.factor(data$period_name)
 
 # Logarithmic transformation of the dependent variable
 data$log_volume <- log(data$volume + 1)  
+
+write_parquet(data,"data/02-analysis_data/analysis_data.parquet")
